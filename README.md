@@ -7,16 +7,16 @@ And hence this repository will primarily focus on keypoint detection on custom d
 
 ## Table of contents
 
-- Preparing dataset
-  - Data collection
-  - Annotation
-  - Processing dataset
-- Model preparation
-  - Pretrained model
-  - Parameter changes in pipeline.config
-  - Creating label map
-- Training
-- Inference
+- [Preparing dataset]()
+  - [Data collection]()
+  - [Annotation]()
+  - [Processing dataset]()
+- [Model preparation]()
+  - [Pretrained model]()
+  - [Parameter changes in pipeline.config]()
+  - [Creating label map]()
+- [Training]()
+- [Inference]()
 
 
 ## Preparing dataset
