@@ -39,7 +39,7 @@ Collect all your images and place it into your ```dataset/images``` folder. Make
 ### Annotation
 
 The TF2 object detection pipeline requires the dataset for centernet-hourglass network to be annotated on [coco data format](https://cocodataset.org/#format-data) as it's pretrained model is initially trained on COCO dataset.  
-I have used [coco-annotator](https://github.com/jsbroks/coco-annotator), web-based tool that let's you annotate bounding boxes, keypoints, etc which also allows us to automatically download the annotations on coco data format. The [setup and installtion](https://github.com/jsbroks/coco-annotator/wiki/Getting-Started) using docker is super easy, where you can follow these steps to do so.
+I have used [coco-annotator](https://github.com/jsbroks/coco-annotator), a web-based tool that let's you annotate bounding boxes, keypoints, etc which also allows us to automatically download the annotations on coco data format. The [setup and installtion](https://github.com/jsbroks/coco-annotator/wiki/Getting-Started) using docker is super easy, where you can follow these steps to do so.
 
 ### Processing dataset
 
@@ -47,8 +47,18 @@ I have used [coco-annotator](https://github.com/jsbroks/coco-annotator), web-bas
 
 ### Pretrained model
 
-Download the [centernet-hourglass104 512x512](http://download.tensorflow.org/models/object_detection/tf2/20200711/centernet_hg104_512x512_kpts_coco17_tpu-32.tar.gz) pre-trained model from [TF2 model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md). You can also use [centernet-hourglass104 1024x1024](http://download.tensorflow.org/models/object_detection/tf2/20200711/centernet_hg104_1024x1024_kpts_coco17_tpu-32.tar.gz) pretrained model.  
-Extract and place the pre-trained model folder inside the ```pretrained_models``` folder.
+Download the [centernet-hourglass104 keypoints 512x512](http://download.tensorflow.org/models/object_detection/tf2/20200711/centernet_hg104_512x512_kpts_coco17_tpu-32.tar.gz) pre-trained model from [TF2 model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md). You can also use [centernet-hourglass104 keypoints 1024x1024](http://download.tensorflow.org/models/object_detection/tf2/20200711/centernet_hg104_1024x1024_kpts_coco17_tpu-32.tar.gz) pretrained model.  
+Extract and place the pre-trained model inside the ```pretrained_models``` folder. Your folder structure should look like this 
+```
+Custom-keypoint-detection
+|_ dataset
+    |_ images (folder to place all the images)
+    |_ annotations (folder to place the annotation file)
+    |_ tfrecord (folder to place tfrecord)
+|_ pretrained_model
+    |_ centernet_hg104_512x512_kpts_coco17_tpu-32
+```
+
 
 ### Parameter changes in config file
 
