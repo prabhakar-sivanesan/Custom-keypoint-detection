@@ -22,18 +22,18 @@ And hence this repository will primarily focus on keypoint detection training on
 ## Preparing dataset
 
 Create a folder structure similar to this order  
-'''
+```
 Custom-keypoint-detection
 |_ dataset
     |_ images (folder to place all the images)
     |_ annotations (folder to place the annotation file)
     |_ tfrecord (folder to place tfrecord)
-'''
+```
 
 
 ### Data collection
 
-Collect all your images and place it into your '''dataset/images''' folder.
+Collect all your images and place it into your ```dataset/images``` folder.
 
 ### Annotation
 
