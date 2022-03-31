@@ -1,3 +1,4 @@
 /.vscode
 /dataset/images
 /dataset/source_videos
+/resize_image.py

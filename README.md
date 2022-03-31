@@ -36,6 +36,11 @@ Our intention in this project is to detect cutting plier and it's 5 keypoints. B
 
 Collect all your images and place it into your ```dataset/images``` folder. Make sure all the images are in same format, preferably .jpg/jpeg.
 
+![sample1](utils/sample_image_1.jpg)
+![sample2](utils/sample_image_2.jpg)
+![sample3](utils/sample_image_3.jpg)
+![sample4](utils/sample_image_4.jpg)
+
 ### Annotation
 
 The TF2 object detection pipeline requires the dataset for centernet-hourglass network to be annotated on [coco data format](https://cocodataset.org/#format-data) as it's pretrained model is initially trained on COCO dataset.  
@@ -43,9 +48,17 @@ I have used [coco-annotator](https://github.com/jsbroks/coco-annotator), a web-b
 
 Run ```docker-compose up``` on terminal from the coco_annotator project directory. Once it's fired up, open ```http://localhost:5000``` on your web browser to go to COCO annotator web interface.
 
+#### Creating dataset
+
 Go to *Datasets* tab and create a new dataset. Give a *dataset name* and click **Create Dataset**.  
 
-![create dataset](/utils/create_dataset.gif)
+![create dataset](/utils/create_dataset.gif)  
+
+It will automatically create a folder inside ```coco-annotator/datasets/(dataset_name)```. Now copy all the images from ```Custom-keypoint-detection/dataset/images``` to ```coco-annotator/datasets/(dataset_name)```. This will automatically import all the images into the web-based annotation tool.  
+
+#### Create categories
+
+
 
 ### Processing dataset
 
