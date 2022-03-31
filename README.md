@@ -44,7 +44,7 @@ Collect all your images and place it into your ```dataset/images``` folder. Make
 ### Annotation
 
 The TF2 object detection pipeline requires the dataset for centernet-hourglass network to be annotated on [coco data format](https://cocodataset.org/#format-data) as it's pretrained model is initially trained on COCO dataset.  
-I have used [coco-annotator](https://github.com/jsbroks/coco-annotator), a web-based tool that let's you annotate bounding boxes, keypoints, etc which also allows us to automatically download the annotations on coco data format. The [setup and installtion](https://github.com/jsbroks/coco-annotator/wiki/Getting-Started) using docker is super easy, where you can follow these steps to do so.
+I have used [coco-annotator](https://github.com/jsbroks/coco-annotator), a web-based annotation tool that let's you annotate bounding boxes, keypoints, etc which also allows us to automatically download the annotations in coco data format. The [setup and installtion](https://github.com/jsbroks/coco-annotator/wiki/Getting-Started) using docker is super easy, where you can follow these steps to do so.
 
 Run ```docker-compose up``` on terminal from the coco_annotator project directory. Once it's fired up, open ```http://localhost:5000``` on your web browser to go to COCO annotator web interface.
 
@@ -54,10 +54,13 @@ Go to *Datasets* tab and create a new dataset. Give a *dataset name* and click *
 
 ![create dataset](/utils/create_dataset.gif)  
 
-It will automatically create a folder inside ```coco-annotator/datasets/(dataset_name)```. Now copy all the images from ```Custom-keypoint-detection/dataset/images``` to ```coco-annotator/datasets/(dataset_name)```. This will automatically import all the images into the web-based annotation tool.  
+It will automatically create a folder inside ```coco-annotator/datasets/(dataset_name)```. Now copy all the images from ```Custom-keypoint-detection/dataset/images``` to ```coco-annotator/datasets/(dataset_name)```. This will automatically import all the images into the coco-annotator tool.  
 
 #### Create categories
 
+Next step is to create the categories(labels) for our dataset to annotate. We create categories only for the objects that needs to be detected using bounding box. Keypoints will be a subset of the object itself.
+
+![create categories](/utils/create_categories.gif)
 
 
 ### Processing dataset
