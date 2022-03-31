@@ -48,7 +48,7 @@ I have used [coco-annotator](https://github.com/jsbroks/coco-annotator), a web-b
 
 Run ```docker-compose up``` on terminal from the coco_annotator project directory. Once it's fired up, open ```http://localhost:5000``` on your web browser to go to COCO annotator web interface.
 
-#### Creating dataset
+#### Create dataset
 
 Go to *Datasets* tab and create a new dataset. Give a *dataset name* and click **Create Dataset**.  
 
@@ -58,9 +58,13 @@ It will automatically create a folder inside ```coco-annotator/datasets/(dataset
 
 #### Create categories
 
-Next step is to create the categories(labels) for our dataset to annotate. We create categories only for the objects that needs to be detected using bounding box. Keypoints will be a subset of the object itself.
+Next step is to create the **_categories (labels)_** for our dataset to annotate. We create categories only for the objects that needs to be detected using bounding box. We won't create separate categories for keypoints, it will be a subset of the object itself.  
+Link **_categories_** to the dataset by the **_Edit_** option.
 
-![create categories](/utils/create_categories.gif)
+![create categories](/utils/create_category.gif)  
+
+#### Image annotation
+
 
 
 ### Processing dataset
