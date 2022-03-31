@@ -41,9 +41,11 @@ Collect all your images and place it into your ```dataset/images``` folder. Make
 The TF2 object detection pipeline requires the dataset for centernet-hourglass network to be annotated on [coco data format](https://cocodataset.org/#format-data) as it's pretrained model is initially trained on COCO dataset.  
 I have used [coco-annotator](https://github.com/jsbroks/coco-annotator), a web-based tool that let's you annotate bounding boxes, keypoints, etc which also allows us to automatically download the annotations on coco data format. The [setup and installtion](https://github.com/jsbroks/coco-annotator/wiki/Getting-Started) using docker is super easy, where you can follow these steps to do so.
 
-Run ```docker-compose up``` on terminal from the coco_annotator project directory. Once it's fired up open ```http://localhost:5000``` on your web browser.
+Run ```docker-compose up``` on terminal from the coco_annotator project directory. Once it's fired up, open ```http://localhost:5000``` on your web browser to go to COCO annotator web interface.
 
-Go to *Datasets* tab and create a new dataset. Give a *dataset name* and click **Create Dataset**. 
+Go to *Datasets* tab and create a new dataset. Give a *dataset name* and click **Create Dataset**.  
+
+[![create dataset](/utils/create_dataset.gif)]
 
 ### Processing dataset
 
