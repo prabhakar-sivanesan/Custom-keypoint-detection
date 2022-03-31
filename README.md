@@ -45,7 +45,7 @@ Run ```docker-compose up``` on terminal from the coco_annotator project director
 
 Go to *Datasets* tab and create a new dataset. Give a *dataset name* and click **Create Dataset**.  
 
-[![create dataset](/utils/create_dataset.gif)]
+![create dataset](/utils/create_dataset.gif)
 
 ### Processing dataset
 
