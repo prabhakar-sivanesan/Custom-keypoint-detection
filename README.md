@@ -36,10 +36,10 @@ Our intention in this project is to detect cutting plier and it's 5 keypoints. B
 
 Collect all your images and place it into your ```dataset/images``` folder. Make sure all the images are in same format, preferably .jpg/jpeg.
 
-![sample1](utils/image_1.jpg)
-![sample2](utils/image_2.jpg)
-![sample3](utils/image_3.jpg)
-![sample4](utils/image_4.jpg)
+![sample1](utils/sample_1.jpg)
+![sample2](utils/sample_2.jpg)
+![sample3](utils/sample_3.jpg)
+![sample4](utils/sample_4.jpg)
 
 ### Annotation
 
