@@ -69,10 +69,9 @@ Move to ```Datasets``` tab and click on the images to start annotating. Draw the
 
 ![annotate dataset](utils/annotate_dataset.gif)
 
-After annotating all the images, download the annotation data through ```Datasets -> Download COCO```
+After annotating the required images, download the annotation data through ```Datasets -> Download COCO```. All the annotation data will be saved and downloaded in a ```(dataset_name).json``` file.
 
 ![dowload dataset](utils/download_coco.jpg)
-
 
 ### Processing dataset
 
