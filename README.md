@@ -65,6 +65,13 @@ Link **_categories_** to the dataset by the **_Edit_** option.
 
 #### Image annotation
 
+Move to ```Datasets``` tab and click on the images to start annotating. Draw the bounding box first and press ```right arrow``` on the keyboard to annotate keypoints. Follow the same keypoints order while annotating which shows on the right side panel. 
+
+![annotate dataset](utils/annotate_dataset.gif)
+
+After annotating all the images, download the annotation data through ```Datasets -> Download COCO```
+
+![dowload dataset](utils/download_coco.jpg)
 
 
 ### Processing dataset
