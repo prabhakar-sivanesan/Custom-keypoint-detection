@@ -1,4 +1,4 @@
-# Keypoint detection on custom dataset using Tensorflow Object detection API
+# Keypoint detection training using Tensorflow Object detection API
 
 ## Introduction
 
@@ -72,6 +72,8 @@ Move to ```Datasets``` tab and click on the images to start annotating. Draw the
 After annotating the required images, download the annotation data through ```Datasets -> Download COCO```. All the annotation data will be saved and downloaded as a ```(dataset_name).json``` file.
 
 ![dowload dataset](utils/download_coco.jpg)
+
+You can find the [annotation file](dataset/annotations/Plier%20keypoint.json) for our dataset in ```dataset/annotations/``` folder. 
 
 ### Processing dataset
 
