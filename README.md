@@ -134,17 +134,29 @@ item{
   name: "category_2"
   display_name: "category_2 display name"
   keypoints {
-    id: 0
-    label: "keypoint 0 name"
+    id: 8
+    label: "keypoint 8 name"
   }
   ...
   ...
   keypoints {
-    id: 7
-    label: "keypoint 7 name"
+    id: 11
+    label: "keypoint 11 name"
   }
 }
+item{
+  id: 3
+  name: "category_3"
+  display_name: "category_3 display name"
+}
 ```
+A few things to note:  
+
+1. The name of the keypoints is arbitrary,so some of them share the same label text. What matters is the ID.
+2. Keypoint IDs start from 0, unlike item IDs that start from 1
+3. Keypoint IDs represent the position of each keypoint in the vector we'll write in the TFRecord file, so here I am implicitly defining the fact that the first 7 keypoints in the vector will be related to category_1 and the last 4 to category_2. Only one of the two groups will be defined for each sample, the other will contain zeroes (and it won't be used during training).
+
+It is not mandatory for all the classes to have a keypoint data annotated with it. There can be other classes too with without any keypoint annotaion. Model will only train to detect a bounding box for those objects.
 
 ## Model preparation
 
@@ -160,9 +172,10 @@ Custom-keypoint-detection
     |_ tfrecord (folder to place tfrecord)
 |_ pretrained_model
     |_ centernet_hg104_512x512_kpts_coco17_tpu-32
+        |_checkpoint
+        |_saved_model
+        |_pipeline.config
 ```
-
-
 ### Parameter changes in config file
 
 ## Training
