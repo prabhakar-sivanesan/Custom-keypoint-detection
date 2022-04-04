@@ -73,9 +73,35 @@ After annotating the required images, download the annotation data through ```Da
 
 ![dowload dataset](utils/download_coco.jpg)
 
-You can find the [annotation file](dataset/annotations/Plier%20keypoint.json) for our dataset in ```dataset/annotations/``` folder. 
+You can find the [annotation file](dataset/annotations/Plier%20keypoint.json) for our dataset in ```dataset/annotations/``` folder. By looking at the data structure in annotation file you will get any idea how to prepare your own dataset in coco format.
 
 ### Processing dataset
+
+As you can see we have all the images annotated and saved in a file. But for training, we need two type of dataset namely, training and validation data. So, in order to prepare your dataset for training, we need to split the dataset into set. 
+
+```
+$ python cocosplit.py -h
+usage: cocosplit.py [-h] -s SPLIT [--having-annotations]
+                    coco_annotations train test
+
+Splits COCO annotations file into training and test sets.
+
+positional arguments:
+  coco_annotations      Path to COCO annotations file.
+  train                 Where to store COCO training annotations
+  test                  Where to store COCO test annotations
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -s SPLIT              A percentage of a split; a number in (0, 1)
+  --having-annotations  Ignore all images without annotations. Keep only these
+                        with at least one annotation
+```
+
+```python split_coco_dataset.py -s 0.8  dataset/annotations/Plier keypoint.json dataset/annotations/train_data.json dataset/annotations/validation_data.json```
+
+This script will split the data with 80% into training data and 20% into validation data. 
+
 
 ## Model preparation
 
