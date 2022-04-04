@@ -156,7 +156,7 @@ A few things to note:
 2. Keypoint IDs start from 0, unlike item IDs that start from 1
 3. Keypoint IDs represent the position of each keypoint in the vector we'll write in the TFRecord file, so here I am implicitly defining the fact that the first 7 keypoints in the vector will be related to category_1 and the last 4 to category_2. Only one of the two groups will be defined for each sample, the other will contain zeroes (and it won't be used during training).
 
-It is not mandatory for all the classes to have a keypoint data annotated with it. There can be other classes too with without any keypoint annotaion. Model will only train to detect a bounding box for those objects.
+It is not mandatory for all the classes to have a keypoint data annotated with it. There can be other classes too without any keypoint annotaion. Model will only train to detect bounding boxes for those objects.
 
 ## Model preparation
 
