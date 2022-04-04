@@ -107,6 +107,45 @@ Thanks to [cocosplit repo from akarazniewicz](https://github.com/akarazniewicz/c
 
 ### Creating label map
 
+The next step is to create label map, which contains the label and ID correlation data for each category we have annotated along with it's keypoint. There is a specific format we have to adhere for TF2 object detection api to rightly recognise this label map.
+
+```
+item {
+  id: 1
+  name: "category_1"
+  display_name: "category_1 display name"
+  keypoints {
+    id: 0
+    label: "keypoint 0 name"
+  }
+  keypoints {
+    id: 1
+    label: "keypoint 1 name"
+  }
+  ...
+  ...
+  keypoints {
+    id: 7
+    label: "keypoint 7 name"
+  }
+}
+item{
+  id: 2
+  name: "category_2"
+  display_name: "category_2 display name"
+  keypoints {
+    id: 0
+    label: "keypoint 0 name"
+  }
+  ...
+  ...
+  keypoints {
+    id: 7
+    label: "keypoint 7 name"
+  }
+}
+```
+
 ## Model preparation
 
 ### Pretrained model
