@@ -97,8 +97,10 @@ optional arguments:
   --having-annotations  Ignore all images without annotations. Keep only these
                         with at least one annotation
 ```
-
-```python split_coco_dataset.py -s 0.8  dataset/annotations/Plier keypoint.json dataset/annotations/train_data.json dataset/annotations/validation_data.json```
+```
+python split_coco_dataset.py -s 0.8  dataset/annotations/Plier keypoint.json 
+            dataset/annotations/train_data.json dataset/annotations/validation_data.json
+```
 
 This script will split the data with 80% into training data and 20% into validation data. 
 
