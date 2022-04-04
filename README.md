@@ -102,7 +102,8 @@ python split_coco_dataset.py -s 0.8  dataset/annotations/Plier keypoint.json
             dataset/annotations/train_data.json dataset/annotations/validation_data.json
 ```
 
-This script will split the data with 80% into training data and 20% into validation data. 
+This script will split the data with 80% into training data and 20% into validation data.  
+Thanks to [cocosplit repo from akarazniewicz](https://github.com/akarazniewicz/cocosplit), most part of the script is inspired from his work and just made few adjustments to it.
 
 
 ## Model preparation
