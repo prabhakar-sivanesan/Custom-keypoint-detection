@@ -98,7 +98,7 @@ optional arguments:
                         with at least one annotation
 ```
 ```
-python split_coco_dataset.py -s 0.8  dataset/annotations/Plier keypoint.json 
+python split_coco_dataset.py -s 0.8  dataset/annotations/Plier\ keypoint.json 
             dataset/annotations/train_data.json dataset/annotations/validation_data.json
 ```
 
