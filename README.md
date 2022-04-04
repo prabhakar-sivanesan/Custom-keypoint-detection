@@ -12,10 +12,10 @@ We will be using the transfer learning technique on [centernet-hourglass104](htt
   - [Data collection](#data-collection)
   - [Annotation](#annotation)
   - [Processing dataset](#processing-dataset)
+  - [Creating label map](#creating-label-map)
 - [Model preparation](#model-preparation)
   - [Pretrained model](#pretrained-model)
   - [Parameter changes in config file](#parameter-changes-in-config-file)
-  - [Creating label map](#creating-label-map)
 - [Training](#training)
 - [Inference](#inference)
 
@@ -98,13 +98,14 @@ optional arguments:
                         with at least one annotation
 ```
 ```
-python split_coco_dataset.py -s 0.8  dataset/annotations/Plier\ keypoint.json 
+python split_coco_dataset.py -s 0.7  dataset/annotations/Plier\ keypoint.json 
             dataset/annotations/train_data.json dataset/annotations/validation_data.json
 ```
 
-This script will split the data with 80% into training data and 20% into validation data.  
+This script will split the data with 70% into training data and 30% into validation data.  
 Thanks to [cocosplit repo from akarazniewicz](https://github.com/akarazniewicz/cocosplit), most part of the script is inspired from his work and just made few adjustments to it.
 
+### Creating label map
 
 ## Model preparation
 
@@ -124,8 +125,6 @@ Custom-keypoint-detection
 
 
 ### Parameter changes in config file
-
-### Creating label map
 
 ## Training
 
