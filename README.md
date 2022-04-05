@@ -108,9 +108,9 @@ Thanks to [cocosplit repo from akarazniewicz](https://github.com/akarazniewicz/c
 
 ### Generate TFRecord
 
-Tensorflow object detection api itself provides an example python script to [create TFRecord](https://github.com/tensorflow/models/blob/master/research/object_detection/dataset_tools/create_coco_tf_record.py) for coco based annotations. But the script is primarily written for coco dataset which contains human pose keypoints. So with few changes to it, we can use it for any custom dataset.  
-Edit the ```_COCO_KEYPOINTS_NAMES``` list on [line no 87](https://github.com/tensorflow/models/blob/a3727dae1371fd4b93b80599bdce0e3d57600a25/research/object_detection/dataset_tools/create_coco_tf_record.py#L87) with our keypoints data with the same order it appears on the [annotation file](https://github.com/prabhakar-sivanesan/Custom-keypoint-detection/blob/3d3d729d03160ff60b6a9fa29e2b79e67a35b9fd/dataset/annotations/validation_data.json#L4731).  
-From
+Tensorflow object detection api itself provides an example python script to [generate TFRecord](https://github.com/tensorflow/models/blob/master/research/object_detection/dataset_tools/create_coco_tf_record.py) for coco based annotations. But the script is primarily written for coco dataset which contains human pose keypoints. So with few changes to it, we can use it for any custom dataset.  
+To do that, edit the ```_COCO_KEYPOINTS_NAMES``` list in [line no 87](https://github.com/tensorflow/models/blob/a3727dae1371fd4b93b80599bdce0e3d57600a25/research/object_detection/dataset_tools/create_coco_tf_record.py#L87) with our keypoints data with the same order it appears on the [annotation file](https://github.com/prabhakar-sivanesan/Custom-keypoint-detection/blob/3d3d729d03160ff60b6a9fa29e2b79e67a35b9fd/dataset/annotations/validation_data.json#L4731). This is an important step which needs to be verified.  
+Change it from
 ```
 _COCO_KEYPOINT_NAMES = [
     b'nose', b'left_eye', b'right_eye', b'left_ear', b'right_ear',
@@ -119,7 +119,7 @@ _COCO_KEYPOINT_NAMES = [
     b'left_knee', b'right_knee', b'left_ankle', b'right_ankle'
 ]
 ```
-To
+to
 ```
 _COCO_KEYPOINT_NAMES = [
     b'plier_right_handle', b'plier_left_handle', b'plier_middle',
