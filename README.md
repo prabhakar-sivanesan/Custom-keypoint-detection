@@ -206,7 +206,7 @@ Configuration in the ```pipeline.config``` file has to be edited based on the da
 
 ```
 keypoint_estimation_task {
-      task_name: "plier_keypoint_detection"
+      task_name: "class_1_keypoint_detection"
       task_loss_weight: 1.0
       loss {
         localization_loss {
@@ -220,7 +220,7 @@ keypoint_estimation_task {
           }
         }
       }
-      keypoint_class_name: "Plier"
+      keypoint_class_name: "class_1"
       keypoint_regression_loss_weight: 0.1
       keypoint_heatmap_loss_weight: 1.0
       keypoint_offset_loss_weight: 1.0
@@ -230,7 +230,99 @@ keypoint_estimation_task {
 ```
 Point ```keypoint_label_map_path``` parameter to the label map path.  
 Change ```fine_tune_checkpoint``` parameter to the pre-trained model checkpoint file.  
-Then edit the train and eval input readers to load keypoints adding ```num_keypoints: 5``` (cumulative number of keypoints in all classes) to the ```input_reader``` block.
+Then edit the train and eval input readers to load keypoints adding ```num_keypoints: 5``` (cumulative number of keypoints in all classes) to the ```input_reader``` block.  
+
+```
+train_input_reader: {
+  label_map_path: "path_to_label_map.pbtxt"
+  tf_record_input_reader {
+    input_path: "path_to_train.record"
+  }
+  num_keypoints: 5
+}
+
+eval_input_reader: {
+  label_map_path: "path_to_label_map.pbtxt"
+  tf_record_input_reader {
+    input_path: "path_validation.record"
+  }
+  num_keypoints: 5
+}
+```
+Finally, for proper evaluation metrics, you need to add keypoints information to the ```eval_config``` block. ```keypoint_edge``` is for visualization purpose.  
+
+```eval_config: {
+  metrics_set: "coco_detection_metrics"
+  use_moving_averages: false
+  num_visualizations: 10
+  max_num_boxes_to_visualize: 20
+  min_score_threshold: 0.2
+  parameterized_metric {
+    coco_keypoint_metrics {
+      class_label: "class_1"
+      keypoint_label_to_sigmas {
+        key: "keypoint_0" # add exact keypoint name of keypoint id 0 from labelmap
+        value: 5 # defaults value is 5
+      }
+      keypoint_label_to_sigmas {
+        key: "keypoint_1" # add exact keypoint name of keypoint id 1 from labelmap
+        value: 5
+      }
+      keypoint_label_to_sigmas {
+        key: "keypoint_2" # add exact keypoint name of keypoint id 2 from labelmap
+        value: 5
+      }
+      keypoint_label_to_sigmas {
+        key: "keypoint_3" # add exact keypoint name of keypoint id 3 from labelmap
+        value: 5
+      }
+      keypoint_label_to_sigmas {
+        key: "keypoint_4" # add exact keypoint name of keypoint id 4 from labelmap
+        value: 5
+      }
+    }
+  }
+  parameterized_metric { # keep adding another block for more classes.
+    coco_keypoint_metrics {
+      class_label: "class_2"
+      keypoint_label_to_sigmas {
+        key: "another_keypint"
+        value: 5
+      }
+      ...
+      ...
+      keypoint_label_to_sigmas {
+        key: "another_keypoint"
+        value: 5
+      }
+    }
+  }
+  keypoint_edge { # add exact keypoint mapping 
+    start: 0 
+    end: 1
+  }
+  keypoint_edge { 
+    start: 1
+    end: 2
+  }
+  keypoint_edge { 
+    start: 0
+    end: 2
+  }
+  keypoint_edge { 
+    start: 2
+    end: 3
+  }
+  keypoint_edge { 
+    start: 2
+    end: 4
+  }
+  keypoint_edge { 
+    start: 3
+    end: 4
+  }
+}
+```
 
 ## Training
 
