@@ -202,11 +202,11 @@ Custom-keypoint-detection
 ```
 ### Parameter changes in config file
 
-Configuration in the ```pipeline.config``` file has to be edited based on the dataset annotation and training parameters. Firstly, for each class with keypoints defined, we have to add a ```keypoint_estimation_task``` block in the ```center_net``` block. 
+Configuration in the ```pipeline.config``` file has to be edited based on the dataset annotation and training parameters. Firstly, for each category with keypoints defined, we have to add a ```keypoint_estimation_task``` block in the ```center_net``` block. 
 
 ```
 keypoint_estimation_task {
-      task_name: "class_1_keypoint_detection"
+      task_name: "category_1_keypoint_detection"
       task_loss_weight: 1.0
       loss {
         localization_loss {
@@ -220,7 +220,7 @@ keypoint_estimation_task {
           }
         }
       }
-      keypoint_class_name: "class_1"
+      keypoint_class_name: "category_1"
       keypoint_regression_loss_weight: 0.1
       keypoint_heatmap_loss_weight: 1.0
       keypoint_offset_loss_weight: 1.0
@@ -230,7 +230,7 @@ keypoint_estimation_task {
 ```
 Point ```keypoint_label_map_path``` parameter to the label map path.  
 Change ```fine_tune_checkpoint``` parameter to the pre-trained model checkpoint file.  
-Then edit the train and eval input readers to load keypoints adding ```num_keypoints: 5``` (cumulative number of keypoints in all classes) to the ```input_reader``` block.  
+Then edit the train and eval input readers to load keypoints adding ```num_keypoints: 5``` (cumulative number of keypoints in all category) to the ```input_reader``` block.  
 
 ```
 train_input_reader: {
@@ -259,7 +259,7 @@ Finally, for proper evaluation metrics, you need to add keypoints information to
   min_score_threshold: 0.2
   parameterized_metric {
     coco_keypoint_metrics {
-      class_label: "class_1"
+      class_label: "category_1"
       keypoint_label_to_sigmas {
         key: "keypoint_0" # add exact keypoint name of keypoint id 0 from labelmap
         value: 5 # defaults value is 5
@@ -282,9 +282,9 @@ Finally, for proper evaluation metrics, you need to add keypoints information to
       }
     }
   }
-  parameterized_metric { # keep adding another block for more classes.
+  parameterized_metric { # keep adding another block for more category.
     coco_keypoint_metrics {
-      class_label: "class_2"
+      class_label: "category_2"
       keypoint_label_to_sigmas {
         key: "another_keypint"
         value: 5
