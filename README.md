@@ -126,6 +126,7 @@ _COCO_KEYPOINT_NAMES = [
     b'plier_right_head', b'plier_left_head'
 ]
 ```
+For reference, I have added the ```generate_tfrecord_from_coco.py``` script to the repository. Once this change is done, you can run the script to generate tfrecord for train and validataion dataset. 
 
 
 ### Creating label map
@@ -200,6 +201,34 @@ Custom-keypoint-detection
         |_pipeline.config
 ```
 ### Parameter changes in config file
+
+Configuration in the ```pipeline.config``` file has to be edited based on the dataset annotation and training parameters. Firstly, for each class with keypoints defined, we have to add a ```keypoint_estimation_task``` block in the ```center_net``` block. 
+
+```
+keypoint_estimation_task {
+      task_name: "aircraft_keypoint_detection"
+      task_loss_weight: 1.0
+      loss {
+        localization_loss {
+          l1_localization_loss {
+          }
+        }
+        classification_loss {
+          penalty_reduced_logistic_focal_loss {
+            alpha: 2.0
+            beta: 4.0
+          }
+        }
+      }
+      keypoint_class_name: "Aircraft"
+      keypoint_regression_loss_weight: 0.1
+      keypoint_heatmap_loss_weight: 1.0
+      keypoint_offset_loss_weight: 1.0
+      offset_peak_radius: 3
+      per_keypoint_offset: true
+    }
+    
+    ```
 
 ## Training
 
