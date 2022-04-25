@@ -180,7 +180,7 @@ A few things to note:
 2. Keypoint IDs start from 0, unlike item IDs that start from 1
 3. Keypoint IDs represent the position of each keypoint in the vector we'll write in the TFRecord file, so here I am implicitly defining the fact that the first 7 keypoints in the vector will be related to category_1 and the last 4 to category_2. Only one of the two groups will be defined for each sample, the other will contain zeroes (and it won't be used during training).
 
-It is not mandatory for all the classes to have a keypoint data annotated with it. There can be other classes too without any keypoint annotaion. Model will only train to detect bounding boxes for those objects.
+It is not mandatory for all the classes to have a keypoint data annotated with it. There can be other classes too without any keypoint annotaion. Model will only train to detect bounding boxes for those objects. For reference, I have added the label map for our dataset at ```dataset/label_map.pbtxt```.
 
 ## Model preparation
 
@@ -206,7 +206,7 @@ Configuration in the ```pipeline.config``` file has to be edited based on the da
 
 ```
 keypoint_estimation_task {
-      task_name: "aircraft_keypoint_detection"
+      task_name: "plier_keypoint_detection"
       task_loss_weight: 1.0
       loss {
         localization_loss {
@@ -220,15 +220,15 @@ keypoint_estimation_task {
           }
         }
       }
-      keypoint_class_name: "Aircraft"
+      keypoint_class_name: "Plier"
       keypoint_regression_loss_weight: 0.1
       keypoint_heatmap_loss_weight: 1.0
       keypoint_offset_loss_weight: 1.0
       offset_peak_radius: 3
       per_keypoint_offset: true
     }
-    
-    ```
+```
+
 
 ## Training
 

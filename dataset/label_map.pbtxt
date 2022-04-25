@@ -1,0 +1,25 @@
+item {
+  id: 1
+  name: "Plier"
+  display_name: "plier"
+  keypoints {
+    id: 0
+    label: "plier_right_handle"
+  }
+  keypoints {
+    id: 1
+    label: "plier_left_handle"
+  }
+  keypoints {
+    id: 2
+    label: "plier_middle"
+  }
+  keypoints {
+    id: 3
+    label: "plier_right_head"
+  }
+  keypoints {
+    id: 4
+    label: "plier_left_head"
+  }
+}
