@@ -228,7 +228,9 @@ keypoint_estimation_task {
       per_keypoint_offset: true
     }
 ```
-
+Point ```keypoint_label_map_path``` parameter to the label map path.  
+Change ```fine_tune_checkpoint``` parameter to the pre-trained model checkpoint file.  
+Then edit the train and eval input readers to load keypoints adding ```num_keypoints: 5``` (cumulative number of keypoints in all classes) to the ```input_reader``` block.
 
 ## Training
 
