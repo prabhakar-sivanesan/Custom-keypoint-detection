@@ -129,7 +129,7 @@ _COCO_KEYPOINT_NAMES = [
 For reference, I have added the ```generate_tfrecord_from_coco.py``` script to the repository. Once this change is done, you can run the script to generate tfrecord for train and validataion dataset. 
 Run  
 ```
-!python dataset_tools/create_coco_tf_record.py --train_image_dir "dataset/images" \
+python dataset_tools/generate_tfrecord_from_coco.py --train_image_dir "dataset/images" \
 --test_image_dir "dataset/images" \
 --val_image_dir "dataset/images" \
 --train_annotations_file "dataset/annotations/train_data.json" \
@@ -335,6 +335,8 @@ Finally, for proper evaluation metrics, you need to add keypoints information to
   }
 }
 ```
+
+For reference, I have added the sample [pipeline.config](dataset/pipeline.config)
 
 ## Training
 
