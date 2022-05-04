@@ -1,24 +1,37 @@
 {
   "annotations": [
     {
-      "area": 1211216,
+      "area": 1206816,
       "bbox": [
-        420,
-        45,
-        1241,
-        976
+        403,
+        49,
+        1248,
+        967
       ],
       "category_id": 15,
-      "color": "#ef2160",
+      "color": "#1c9721",
       "creator": "anton_prab",
       "dataset_id": 6,
       "events": [
         {
           "_cls": "SessionEvent",
           "created_at": {
-            "$date": 1648847555207
+            "$date": 1648846108637
           },
-          "milliseconds": 25096,
+          "milliseconds": 39574,
+          "tools_used": [
+            "BBox",
+            "Keypoints",
+            "Select"
+          ],
+          "user": "anton_prab"
+        },
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1648846108637
+          },
+          "milliseconds": 26386,
           "tools_used": [
             "BBox",
             "Keypoints",
@@ -28,40 +41,40 @@
         }
       ],
       "height": 1080,
-      "id": 111,
-      "image_id": 253,
+      "id": 109,
+      "image_id": 252,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
-        441,
-        987,
+        445,
+        989,
         2,
-        452,
-        74,
+        453,
+        78,
         2,
-        1305,
-        550,
+        1303,
+        553,
         2,
-        1633,
+        1627,
         675,
         2,
-        1637,
-        419,
+        1632,
+        420,
         2
       ],
       "metadata": {},
-      "milliseconds": 50192,
+      "milliseconds": 263830,
       "num_keypoints": 5,
       "segmentation": [
         [
-          1660.6,
-          45,
-          1660.6,
-          1021.2,
-          420,
-          1021.2,
-          420,
-          45
+          1650.9,
+          49.2,
+          1650.9,
+          1015.6,
+          403.4,
+          1015.6,
+          403.4,
+          49.2
         ]
       ],
       "width": 1920
@@ -133,76 +146,24 @@
       "width": 1920
     },
     {
-      "area": 790275,
+      "area": 780064,
       "bbox": [
-        193,
-        233,
-        1285,
-        615
+        203,
+        228,
+        1283,
+        608
       ],
       "category_id": 15,
-      "color": "#89d24a",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1080,
-      "id": 116,
-      "image_id": 257,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        216,
-        789,
-        2,
-        283,
-        264,
-        2,
-        1159,
-        516,
-        2,
-        1464,
-        585,
-        2,
-        1458,
-        466,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 26757,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          192.9,
-          848.1,
-          192.9,
-          233.3,
-          1477.8,
-          233.3,
-          1477.8,
-          848.1
-        ]
-      ],
-      "width": 1920
-    },
-    {
-      "area": 785970,
-      "bbox": [
-        207,
-        226,
-        1278,
-        615
-      ],
-      "category_id": 15,
-      "color": "#0a82cd",
+      "color": "#5ca9f4",
       "creator": "anton_prab",
       "dataset_id": 6,
       "events": [
         {
           "_cls": "SessionEvent",
           "created_at": {
-            "$date": 1648847999494
+            "$date": 1648847920911
           },
-          "milliseconds": 44977,
+          "milliseconds": 31132,
           "tools_used": [
             "BBox",
             "Keypoints",
@@ -212,63 +173,63 @@
         }
       ],
       "height": 1080,
-      "id": 121,
-      "image_id": 262,
+      "id": 119,
+      "image_id": 260,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
         215,
-        790,
+        787,
         2,
-        280,
-        255,
+        282,
+        261,
         2,
-        1159,
-        512,
+        1158,
+        514,
         2,
-        1467,
+        1465,
         584,
         2,
-        1463,
-        466,
+        1457,
+        469,
         2
       ],
       "metadata": {},
-      "milliseconds": 44977,
+      "milliseconds": 31132,
       "num_keypoints": 5,
       "segmentation": [
         [
-          1484.8,
-          226.4,
-          1484.8,
-          841.2,
-          206.8,
-          841.2,
-          206.8,
-          226.4
+          1486.2,
+          227.8,
+          1486.2,
+          835.6,
+          202.6,
+          835.6,
+          202.6,
+          227.8
         ]
       ],
       "width": 1920
     },
     {
-      "area": 773046,
+      "area": 780672,
       "bbox": [
-        200,
-        231,
-        1282,
-        603
+        201,
+        224,
+        1284,
+        608
       ],
       "category_id": 15,
-      "color": "#d6a44b",
+      "color": "#57cf38",
       "creator": "anton_prab",
       "dataset_id": 6,
       "events": [
         {
           "_cls": "SessionEvent",
           "created_at": {
-            "$date": 1648848113632
+            "$date": 1648848163549
           },
-          "milliseconds": 24909,
+          "milliseconds": 33212,
           "tools_used": [
             "BBox",
             "Keypoints",
@@ -278,40 +239,40 @@
         }
       ],
       "height": 1080,
-      "id": 125,
-      "image_id": 263,
+      "id": 126,
+      "image_id": 264,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
-        214,
-        795,
+        215,
+        786,
         2,
-        283,
-        265,
+        290,
+        260,
         2,
-        1159,
+        1164,
         513,
         2,
-        1465,
-        584,
+        1468,
+        582,
         2,
         1460,
         469,
         2
       ],
       "metadata": {},
-      "milliseconds": 24909,
+      "milliseconds": 33212,
       "num_keypoints": 5,
       "segmentation": [
         [
-          1482,
-          230.5,
-          1482,
-          834.2,
-          199.8,
-          834.2,
-          199.8,
-          230.5
+          1484.8,
+          223.6,
+          1484.8,
+          831.5,
+          201.2,
+          831.5,
+          201.2,
+          223.6
         ]
       ],
       "width": 1920
@@ -449,138 +410,6 @@
       "width": 1920
     },
     {
-      "area": 782136,
-      "bbox": [
-        205,
-        224,
-        1278,
-        612
-      ],
-      "category_id": 15,
-      "color": "#ec4caf",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "created_at": {
-            "$date": 1648848318836
-          },
-          "milliseconds": 33248,
-          "tools_used": [
-            "BBox",
-            "Keypoints",
-            "Select"
-          ],
-          "user": "anton_prab"
-        }
-      ],
-      "height": 1080,
-      "id": 131,
-      "image_id": 270,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        216,
-        789,
-        2,
-        286,
-        264,
-        2,
-        1162,
-        516,
-        2,
-        1468,
-        582,
-        2,
-        1458,
-        467,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 33248,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          1483.4,
-          223.6,
-          1483.4,
-          835.6,
-          205.4,
-          835.6,
-          205.4,
-          223.6
-        ]
-      ],
-      "width": 1920
-    },
-    {
-      "area": 561720,
-      "bbox": [
-        285,
-        327,
-        453,
-        1240
-      ],
-      "category_id": 15,
-      "color": "#c70e61",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "created_at": {
-            "$date": 1648761537117
-          },
-          "milliseconds": 34093,
-          "tools_used": [
-            "BBox",
-            "Keypoints",
-            "Select"
-          ],
-          "user": "anton_prab"
-        }
-      ],
-      "height": 1920,
-      "id": 104,
-      "image_id": 272,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        685,
-        1524,
-        2,
-        347,
-        1517,
-        2,
-        521,
-        601,
-        2,
-        540,
-        349,
-        2,
-        507,
-        351,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 34093,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          737.8,
-          327.2,
-          737.8,
-          1566.6,
-          285,
-          1566.6,
-          285,
-          327.2
-        ]
-      ],
-      "width": 1080
-    },
-    {
       "area": 524145,
       "bbox": [
         304,
@@ -594,8 +423,8 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 139,
-      "image_id": 282,
+      "id": 137,
+      "image_id": 280,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -628,6 +457,228 @@
           1579.1,
           303.7,
           333.5
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 524145,
+      "bbox": [
+        304,
+        334,
+        421,
+        1245
+      ],
+      "category_id": 15,
+      "color": "#520bb4",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
+      "id": 141,
+      "image_id": 284,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        350,
+        1515,
+        2,
+        688,
+        1515,
+        2,
+        520,
+        619,
+        2,
+        538,
+        348,
+        2,
+        503,
+        348,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 34715,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          724.6,
+          333.5,
+          724.6,
+          1579.1,
+          303.7,
+          1579.1,
+          303.7,
+          333.5
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 524145,
+      "bbox": [
+        304,
+        334,
+        421,
+        1245
+      ],
+      "category_id": 15,
+      "color": "#520bb4",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
+      "id": 142,
+      "image_id": 285,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        350,
+        1515,
+        2,
+        688,
+        1515,
+        2,
+        520,
+        619,
+        2,
+        538,
+        348,
+        2,
+        503,
+        348,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 34715,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          724.6,
+          333.5,
+          724.6,
+          1579.1,
+          303.7,
+          1579.1,
+          303.7,
+          333.5
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 537292,
+      "bbox": [
+        304,
+        330,
+        434,
+        1238
+      ],
+      "category_id": 15,
+      "color": "#5cdbf4",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1648996426011
+          },
+          "milliseconds": 39037,
+          "tools_used": [
+            "BBox",
+            "Keypoints",
+            "Select"
+          ],
+          "user": "anton_prab"
+        }
+      ],
+      "height": 1920,
+      "id": 143,
+      "image_id": 286,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        685,
+        1522,
+        2,
+        349,
+        1518,
+        2,
+        523,
+        583,
+        2,
+        542,
+        349,
+        2,
+        515,
+        349,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 39037,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          738.1,
+          329.8,
+          738.1,
+          1567.5,
+          304.2,
+          1567.5,
+          304.2,
+          329.8
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 537292,
+      "bbox": [
+        304,
+        330,
+        434,
+        1238
+      ],
+      "category_id": 15,
+      "color": "#5cdbf4",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
+      "id": 149,
+      "image_id": 288,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        685,
+        1522,
+        2,
+        349,
+        1518,
+        2,
+        523,
+        583,
+        2,
+        542,
+        349,
+        2,
+        515,
+        349,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 39037,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          738.1,
+          329.8,
+          738.1,
+          1567.5,
+          304.2,
+          1567.5,
+          304.2,
+          329.8
         ]
       ],
       "width": 1080
@@ -712,8 +763,8 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 155,
-      "image_id": 294,
+      "id": 154,
+      "image_id": 293,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -855,6 +906,58 @@
       "width": 1080
     },
     {
+      "area": 738720,
+      "bbox": [
+        28,
+        690,
+        1026,
+        720
+      ],
+      "category_id": 15,
+      "color": "#9ad2ea",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
+      "id": 164,
+      "image_id": 303,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        154,
+        1360,
+        2,
+        45,
+        738,
+        2,
+        750,
+        871,
+        2,
+        1032,
+        902,
+        2,
+        960,
+        744,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 151266,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          1054,
+          689.7,
+          1054,
+          1410.4,
+          27.6,
+          1410.4,
+          27.6,
+          689.7
+        ]
+      ],
+      "width": 1080
+    },
+    {
       "area": 968856,
       "bbox": [
         29,
@@ -866,10 +969,24 @@
       "color": "#db68cd",
       "creator": "anton_prab",
       "dataset_id": 6,
-      "events": [],
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1648998069827
+          },
+          "milliseconds": 52693,
+          "tools_used": [
+            "BBox",
+            "Keypoints",
+            "Select"
+          ],
+          "user": "anton_prab"
+        }
+      ],
       "height": 1920,
-      "id": 167,
-      "image_id": 306,
+      "id": 166,
+      "image_id": 305,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -920,8 +1037,112 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 168,
-      "image_id": 307,
+      "id": 170,
+      "image_id": 309,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        1010,
+        1085,
+        2,
+        715,
+        1458,
+        2,
+        270,
+        768,
+        2,
+        119,
+        560,
+        2,
+        48,
+        639,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 52693,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          1051.3,
+          537.4,
+          1051.3,
+          1484.5,
+          28.7,
+          1484.5,
+          28.7,
+          537.4
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 968856,
+      "bbox": [
+        29,
+        537,
+        1022,
+        948
+      ],
+      "category_id": 15,
+      "color": "#db68cd",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
+      "id": 171,
+      "image_id": 310,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        1010,
+        1085,
+        2,
+        715,
+        1458,
+        2,
+        270,
+        768,
+        2,
+        119,
+        560,
+        2,
+        48,
+        639,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 52693,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          1051.3,
+          537.4,
+          1051.3,
+          1484.5,
+          28.7,
+          1484.5,
+          28.7,
+          537.4
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 968856,
+      "bbox": [
+        29,
+        537,
+        1022,
+        948
+      ],
+      "category_id": 15,
+      "color": "#db68cd",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
+      "id": 173,
+      "image_id": 312,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -1024,60 +1245,8 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 176,
-      "image_id": 315,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        1010,
-        1085,
-        2,
-        715,
-        1458,
-        2,
-        270,
-        768,
-        2,
-        119,
-        560,
-        2,
-        48,
-        639,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 52693,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          1051.3,
-          537.4,
-          1051.3,
-          1484.5,
-          28.7,
-          1484.5,
-          28.7,
-          537.4
-        ]
-      ],
-      "width": 1080
-    },
-    {
-      "area": 968856,
-      "bbox": [
-        29,
-        537,
-        1022,
-        948
-      ],
-      "category_id": 15,
-      "color": "#db68cd",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1920,
-      "id": 178,
-      "image_id": 317,
+      "id": 179,
+      "image_id": 318,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -1167,6 +1336,58 @@
       "width": 1080
     },
     {
+      "area": 968856,
+      "bbox": [
+        29,
+        537,
+        1022,
+        948
+      ],
+      "category_id": 15,
+      "color": "#db68cd",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
+      "id": 182,
+      "image_id": 321,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        1010,
+        1085,
+        2,
+        715,
+        1458,
+        2,
+        270,
+        768,
+        2,
+        119,
+        560,
+        2,
+        48,
+        639,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 52693,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          1051.3,
+          537.4,
+          1051.3,
+          1484.5,
+          28.7,
+          1484.5,
+          28.7,
+          537.4
+        ]
+      ],
+      "width": 1080
+    },
+    {
       "area": 997218,
       "bbox": [
         86,
@@ -1178,35 +1399,10 @@
       "color": "#60a3f7",
       "creator": "anton_prab",
       "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "created_at": {
-            "$date": 1648999313380
-          },
-          "milliseconds": 94022,
-          "tools_used": [
-            "BBox",
-            "Keypoints",
-            "Select"
-          ],
-          "user": "anton_prab"
-        },
-        {
-          "_cls": "SessionEvent",
-          "created_at": {
-            "$date": 1648999588133
-          },
-          "milliseconds": 67225,
-          "tools_used": [
-            "Select"
-          ],
-          "user": "anton_prab"
-        }
-      ],
+      "events": [],
       "height": 1920,
-      "id": 184,
-      "image_id": 325,
+      "id": 190,
+      "image_id": 329,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -1257,8 +1453,8 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 191,
-      "image_id": 330,
+      "id": 192,
+      "image_id": 331,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -1309,8 +1505,8 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 194,
-      "image_id": 333,
+      "id": 193,
+      "image_id": 332,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -1425,8 +1621,8 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 209,
-      "image_id": 348,
+      "id": 202,
+      "image_id": 341,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -1477,8 +1673,8 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 210,
-      "image_id": 349,
+      "id": 204,
+      "image_id": 343,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -1529,8 +1725,8 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 185,
-      "image_id": 350,
+      "id": 206,
+      "image_id": 345,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -1551,7 +1747,7 @@
         2
       ],
       "metadata": {},
-      "milliseconds": 94022,
+      "milliseconds": 161247,
       "num_keypoints": 5,
       "segmentation": [
         [
@@ -1568,67 +1764,105 @@
       "width": 1080
     },
     {
-      "area": 533820,
+      "area": 997218,
       "bbox": [
-        341,
-        256,
-        420,
-        1271
+        86,
+        415,
+        939,
+        1062
       ],
       "category_id": 15,
-      "color": "#ed43f7",
+      "color": "#60a3f7",
       "creator": "anton_prab",
       "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "created_at": {
-            "$date": 1649005098002
-          },
-          "milliseconds": 64059,
-          "tools_used": [
-            "BBox",
-            "Keypoints",
-            "Select"
-          ],
-          "user": "anton_prab"
-        }
-      ],
+      "events": [],
       "height": 1920,
-      "id": 211,
-      "image_id": 351,
+      "id": 207,
+      "image_id": 346,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
-        700,
-        1482,
+        991,
+        1266,
         2,
-        391,
-        1477,
+        795,
+        1443,
         2,
-        541,
-        529,
+        297,
+        658,
         2,
-        551,
-        269,
+        121,
+        428,
         2,
-        527,
-        272,
+        103,
+        439,
         2
       ],
       "metadata": {},
-      "milliseconds": 64059,
+      "milliseconds": 161247,
       "num_keypoints": 5,
       "segmentation": [
         [
-          760.6,
-          256,
-          760.6,
-          1527,
-          341.4,
-          1527,
-          341.4,
-          256
+          1024.9,
+          415.2,
+          1024.9,
+          1477,
+          86,
+          1477,
+          86,
+          415.2
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 997218,
+      "bbox": [
+        86,
+        415,
+        939,
+        1062
+      ],
+      "category_id": 15,
+      "color": "#60a3f7",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
+      "id": 208,
+      "image_id": 347,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        991,
+        1266,
+        2,
+        795,
+        1443,
+        2,
+        297,
+        658,
+        2,
+        121,
+        428,
+        2,
+        103,
+        439,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 161247,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          1024.9,
+          415.2,
+          1024.9,
+          1477,
+          86,
+          1477,
+          86,
+          415.2
         ]
       ],
       "width": 1080
@@ -1699,8 +1933,8 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 222,
-      "image_id": 355,
+      "id": 221,
+      "image_id": 354,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -1753,266 +1987,6 @@
       "height": 1920,
       "id": 223,
       "image_id": 356,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        700,
-        1482,
-        2,
-        391,
-        1477,
-        2,
-        541,
-        529,
-        2,
-        551,
-        269,
-        2,
-        527,
-        272,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 64059,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          760.6,
-          256,
-          760.6,
-          1527,
-          341.4,
-          1527,
-          341.4,
-          256
-        ]
-      ],
-      "width": 1080
-    },
-    {
-      "area": 533820,
-      "bbox": [
-        341,
-        256,
-        420,
-        1271
-      ],
-      "category_id": 15,
-      "color": "#ed43f7",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1920,
-      "id": 224,
-      "image_id": 357,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        700,
-        1482,
-        2,
-        391,
-        1477,
-        2,
-        541,
-        529,
-        2,
-        551,
-        269,
-        2,
-        527,
-        272,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 64059,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          760.6,
-          256,
-          760.6,
-          1527,
-          341.4,
-          1527,
-          341.4,
-          256
-        ]
-      ],
-      "width": 1080
-    },
-    {
-      "area": 533820,
-      "bbox": [
-        341,
-        256,
-        420,
-        1271
-      ],
-      "category_id": 15,
-      "color": "#ed43f7",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1920,
-      "id": 226,
-      "image_id": 359,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        700,
-        1482,
-        2,
-        391,
-        1477,
-        2,
-        541,
-        529,
-        2,
-        551,
-        269,
-        2,
-        527,
-        272,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 64059,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          760.6,
-          256,
-          760.6,
-          1527,
-          341.4,
-          1527,
-          341.4,
-          256
-        ]
-      ],
-      "width": 1080
-    },
-    {
-      "area": 533820,
-      "bbox": [
-        341,
-        256,
-        420,
-        1271
-      ],
-      "category_id": 15,
-      "color": "#ed43f7",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1920,
-      "id": 229,
-      "image_id": 362,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        700,
-        1482,
-        2,
-        391,
-        1477,
-        2,
-        541,
-        529,
-        2,
-        551,
-        269,
-        2,
-        527,
-        272,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 64059,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          760.6,
-          256,
-          760.6,
-          1527,
-          341.4,
-          1527,
-          341.4,
-          256
-        ]
-      ],
-      "width": 1080
-    },
-    {
-      "area": 533820,
-      "bbox": [
-        341,
-        256,
-        420,
-        1271
-      ],
-      "category_id": 15,
-      "color": "#ed43f7",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1920,
-      "id": 231,
-      "image_id": 364,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        700,
-        1482,
-        2,
-        391,
-        1477,
-        2,
-        541,
-        529,
-        2,
-        551,
-        269,
-        2,
-        527,
-        272,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 64059,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          760.6,
-          256,
-          760.6,
-          1527,
-          341.4,
-          1527,
-          341.4,
-          256
-        ]
-      ],
-      "width": 1080
-    },
-    {
-      "area": 533820,
-      "bbox": [
-        341,
-        256,
-        420,
-        1271
-      ],
-      "category_id": 15,
-      "color": "#ed43f7",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1920,
-      "id": 233,
-      "image_id": 366,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -2115,60 +2089,8 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 244,
-      "image_id": 377,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        768,
-        1513,
-        2,
-        136,
-        1513,
-        2,
-        482,
-        556,
-        2,
-        547,
-        278,
-        2,
-        443,
-        281,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 52565,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          820,
-          252.2,
-          820,
-          1562.5,
-          99.4,
-          1562.5,
-          99.4,
-          252.2
-        ]
-      ],
-      "width": 1080
-    },
-    {
-      "area": 945231,
-      "bbox": [
-        99,
-        252,
-        721,
-        1311
-      ],
-      "category_id": 15,
-      "color": "#8825da",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1920,
-      "id": 246,
-      "image_id": 379,
+      "id": 243,
+      "image_id": 376,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -2253,6 +2175,72 @@
           1562.5,
           99.4,
           252.2
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 824466,
+      "bbox": [
+        43,
+        626,
+        1003,
+        822
+      ],
+      "category_id": 15,
+      "color": "#43e5ab",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1649007450843
+          },
+          "milliseconds": 33560,
+          "tools_used": [
+            "BBox",
+            "Keypoints",
+            "Select"
+          ],
+          "user": "anton_prab"
+        }
+      ],
+      "height": 1920,
+      "id": 332,
+      "image_id": 381,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        307,
+        1404,
+        2,
+        66,
+        1061,
+        2,
+        789,
+        804,
+        2,
+        1020,
+        699,
+        2,
+        970,
+        646,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 33560,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          1046.2,
+          625.5,
+          1046.2,
+          1448.4,
+          42.5,
+          1448.4,
+          42.5,
+          625.5
         ]
       ],
       "width": 1080
@@ -2375,112 +2363,8 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 339,
-      "image_id": 388,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        307,
-        1404,
-        2,
-        66,
-        1061,
-        2,
-        789,
-        804,
-        2,
-        1020,
-        699,
-        2,
-        970,
-        646,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 33560,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          1046.2,
-          625.5,
-          1046.2,
-          1448.4,
-          42.5,
-          1448.4,
-          42.5,
-          625.5
-        ]
-      ],
-      "width": 1080
-    },
-    {
-      "area": 824466,
-      "bbox": [
-        43,
-        626,
-        1003,
-        822
-      ],
-      "category_id": 15,
-      "color": "#43e5ab",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1920,
       "id": 341,
       "image_id": 390,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        307,
-        1404,
-        2,
-        66,
-        1061,
-        2,
-        789,
-        804,
-        2,
-        1020,
-        699,
-        2,
-        970,
-        646,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 33560,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          1046.2,
-          625.5,
-          1046.2,
-          1448.4,
-          42.5,
-          1448.4,
-          42.5,
-          625.5
-        ]
-      ],
-      "width": 1080
-    },
-    {
-      "area": 824466,
-      "bbox": [
-        43,
-        626,
-        1003,
-        822
-      ],
-      "category_id": 15,
-      "color": "#43e5ab",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1920,
-      "id": 343,
-      "image_id": 392,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -2583,8 +2467,60 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 362,
-      "image_id": 401,
+      "id": 359,
+      "image_id": 398,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        63,
+        1178,
+        2,
+        77,
+        951,
+        2,
+        759,
+        1069,
+        2,
+        1034,
+        1083,
+        2,
+        1034,
+        1060,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 63464,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          1051.3,
+          926,
+          1051.3,
+          1224.2,
+          32.5,
+          1224.2,
+          32.5,
+          926
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 303364,
+      "bbox": [
+        33,
+        926,
+        1018,
+        298
+      ],
+      "category_id": 15,
+      "color": "#161ffa",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
+      "id": 360,
+      "image_id": 399,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -2687,58 +2623,6 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 250,
-      "image_id": 409,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        376,
-        1354,
-        2,
-        63,
-        992,
-        2,
-        793,
-        666,
-        2,
-        1012,
-        542,
-        2,
-        950,
-        468,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 24373,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          1045.3,
-          441.6,
-          1045.3,
-          1392.6,
-          30,
-          1392.6,
-          30,
-          441.6
-        ]
-      ],
-      "width": 1080
-    },
-    {
-      "area": 965265,
-      "bbox": [
-        30,
-        442,
-        1015,
-        951
-      ],
-      "category_id": 15,
-      "color": "#f67f56",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1920,
       "id": 253,
       "image_id": 413,
       "isbbox": true,
@@ -2791,8 +2675,8 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 257,
-      "image_id": 417,
+      "id": 258,
+      "image_id": 418,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -2843,8 +2727,8 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 260,
-      "image_id": 420,
+      "id": 259,
+      "image_id": 419,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -2947,58 +2831,6 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 264,
-      "image_id": 424,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        376,
-        1354,
-        2,
-        63,
-        992,
-        2,
-        793,
-        666,
-        2,
-        1012,
-        542,
-        2,
-        950,
-        468,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 24373,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          1045.3,
-          441.6,
-          1045.3,
-          1392.6,
-          30,
-          1392.6,
-          30,
-          441.6
-        ]
-      ],
-      "width": 1080
-    },
-    {
-      "area": 965265,
-      "bbox": [
-        30,
-        442,
-        1015,
-        951
-      ],
-      "category_id": 15,
-      "color": "#f67f56",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1920,
       "id": 266,
       "image_id": 426,
       "isbbox": true,
@@ -3051,8 +2883,164 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 275,
-      "image_id": 434,
+      "id": 269,
+      "image_id": 428,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        213,
+        1467,
+        2,
+        56,
+        1244,
+        2,
+        796,
+        871,
+        2,
+        1021,
+        737,
+        2,
+        1001,
+        711,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 62817,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          1047.2,
+          695.8,
+          1047.2,
+          1512.6,
+          29.5,
+          1512.6,
+          29.5,
+          695.8
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 830889,
+      "bbox": [
+        30,
+        696,
+        1017,
+        817
+      ],
+      "category_id": 15,
+      "color": "#e24936",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
+      "id": 271,
+      "image_id": 430,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        213,
+        1467,
+        2,
+        56,
+        1244,
+        2,
+        796,
+        871,
+        2,
+        1021,
+        737,
+        2,
+        1001,
+        711,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 62817,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          1047.2,
+          695.8,
+          1047.2,
+          1512.6,
+          29.5,
+          1512.6,
+          29.5,
+          695.8
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 830889,
+      "bbox": [
+        30,
+        696,
+        1017,
+        817
+      ],
+      "category_id": 15,
+      "color": "#e24936",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
+      "id": 272,
+      "image_id": 431,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        213,
+        1467,
+        2,
+        56,
+        1244,
+        2,
+        796,
+        871,
+        2,
+        1021,
+        737,
+        2,
+        1001,
+        711,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 62817,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          1047.2,
+          695.8,
+          1047.2,
+          1512.6,
+          29.5,
+          1512.6,
+          29.5,
+          695.8
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 830889,
+      "bbox": [
+        30,
+        696,
+        1017,
+        817
+      ],
+      "category_id": 15,
+      "color": "#e24936",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
+      "id": 276,
+      "image_id": 435,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -3155,6 +3143,58 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
+      "id": 282,
+      "image_id": 441,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        213,
+        1467,
+        2,
+        56,
+        1244,
+        2,
+        796,
+        871,
+        2,
+        1021,
+        737,
+        2,
+        1001,
+        711,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 62817,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          1047.2,
+          695.8,
+          1047.2,
+          1512.6,
+          29.5,
+          1512.6,
+          29.5,
+          695.8
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 830889,
+      "bbox": [
+        30,
+        696,
+        1017,
+        817
+      ],
+      "category_id": 15,
+      "color": "#e24936",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
       "id": 283,
       "image_id": 442,
       "isbbox": true,
@@ -3207,8 +3247,8 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 295,
-      "image_id": 454,
+      "id": 284,
+      "image_id": 443,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -3259,8 +3299,424 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 303,
-      "image_id": 462,
+      "id": 285,
+      "image_id": 444,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        213,
+        1467,
+        2,
+        56,
+        1244,
+        2,
+        796,
+        871,
+        2,
+        1021,
+        737,
+        2,
+        1001,
+        711,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 62817,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          1047.2,
+          695.8,
+          1047.2,
+          1512.6,
+          29.5,
+          1512.6,
+          29.5,
+          695.8
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 830889,
+      "bbox": [
+        30,
+        696,
+        1017,
+        817
+      ],
+      "category_id": 15,
+      "color": "#e24936",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
+      "id": 289,
+      "image_id": 448,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        213,
+        1467,
+        2,
+        56,
+        1244,
+        2,
+        796,
+        871,
+        2,
+        1021,
+        737,
+        2,
+        1001,
+        711,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 62817,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          1047.2,
+          695.8,
+          1047.2,
+          1512.6,
+          29.5,
+          1512.6,
+          29.5,
+          695.8
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 830889,
+      "bbox": [
+        30,
+        696,
+        1017,
+        817
+      ],
+      "category_id": 15,
+      "color": "#e24936",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
+      "id": 291,
+      "image_id": 450,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        213,
+        1467,
+        2,
+        56,
+        1244,
+        2,
+        796,
+        871,
+        2,
+        1021,
+        737,
+        2,
+        1001,
+        711,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 62817,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          1047.2,
+          695.8,
+          1047.2,
+          1512.6,
+          29.5,
+          1512.6,
+          29.5,
+          695.8
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 830889,
+      "bbox": [
+        30,
+        696,
+        1017,
+        817
+      ],
+      "category_id": 15,
+      "color": "#e24936",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
+      "id": 296,
+      "image_id": 455,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        213,
+        1467,
+        2,
+        56,
+        1244,
+        2,
+        796,
+        871,
+        2,
+        1021,
+        737,
+        2,
+        1001,
+        711,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 62817,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          1047.2,
+          695.8,
+          1047.2,
+          1512.6,
+          29.5,
+          1512.6,
+          29.5,
+          695.8
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 830889,
+      "bbox": [
+        30,
+        696,
+        1017,
+        817
+      ],
+      "category_id": 15,
+      "color": "#e24936",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
+      "id": 298,
+      "image_id": 457,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        213,
+        1467,
+        2,
+        56,
+        1244,
+        2,
+        796,
+        871,
+        2,
+        1021,
+        737,
+        2,
+        1001,
+        711,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 62817,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          1047.2,
+          695.8,
+          1047.2,
+          1512.6,
+          29.5,
+          1512.6,
+          29.5,
+          695.8
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 830889,
+      "bbox": [
+        30,
+        696,
+        1017,
+        817
+      ],
+      "category_id": 15,
+      "color": "#e24936",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
+      "id": 302,
+      "image_id": 461,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        213,
+        1467,
+        2,
+        56,
+        1244,
+        2,
+        796,
+        871,
+        2,
+        1021,
+        737,
+        2,
+        1001,
+        711,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 62817,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          1047.2,
+          695.8,
+          1047.2,
+          1512.6,
+          29.5,
+          1512.6,
+          29.5,
+          695.8
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 830889,
+      "bbox": [
+        30,
+        696,
+        1017,
+        817
+      ],
+      "category_id": 15,
+      "color": "#e24936",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
+      "id": 305,
+      "image_id": 464,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        213,
+        1467,
+        2,
+        56,
+        1244,
+        2,
+        796,
+        871,
+        2,
+        1021,
+        737,
+        2,
+        1001,
+        711,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 62817,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          1047.2,
+          695.8,
+          1047.2,
+          1512.6,
+          29.5,
+          1512.6,
+          29.5,
+          695.8
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 830889,
+      "bbox": [
+        30,
+        696,
+        1017,
+        817
+      ],
+      "category_id": 15,
+      "color": "#e24936",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
+      "id": 307,
+      "image_id": 466,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        213,
+        1467,
+        2,
+        56,
+        1244,
+        2,
+        796,
+        871,
+        2,
+        1021,
+        737,
+        2,
+        1001,
+        711,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 62817,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          1047.2,
+          695.8,
+          1047.2,
+          1512.6,
+          29.5,
+          1512.6,
+          29.5,
+          695.8
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 830889,
+      "bbox": [
+        30,
+        696,
+        1017,
+        817
+      ],
+      "category_id": 15,
+      "color": "#e24936",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
+      "id": 310,
+      "image_id": 469,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -3311,8 +3767,8 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 316,
-      "image_id": 475,
+      "id": 317,
+      "image_id": 476,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -3415,8 +3871,8 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 322,
-      "image_id": 481,
+      "id": 320,
+      "image_id": 479,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -3467,8 +3923,8 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 323,
-      "image_id": 482,
+      "id": 321,
+      "image_id": 480,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -3501,370 +3957,6 @@
           1175.2,
           25,
           759.6
-        ]
-      ],
-      "width": 1080
-    },
-    {
-      "area": 424960,
-      "bbox": [
-        25,
-        760,
-        1024,
-        415
-      ],
-      "category_id": 15,
-      "color": "#7f93e5",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1920,
-      "id": 326,
-      "image_id": 485,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        49,
-        1148,
-        2,
-        81,
-        778,
-        2,
-        759,
-        951,
-        2,
-        1030,
-        990,
-        2,
-        1024,
-        910,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 36044,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          1048.7,
-          759.6,
-          1048.7,
-          1175.2,
-          25,
-          1175.2,
-          25,
-          759.6
-        ]
-      ],
-      "width": 1080
-    },
-    {
-      "area": 424960,
-      "bbox": [
-        25,
-        760,
-        1024,
-        415
-      ],
-      "category_id": 15,
-      "color": "#7f93e5",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1920,
-      "id": 327,
-      "image_id": 486,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        49,
-        1148,
-        2,
-        81,
-        778,
-        2,
-        759,
-        951,
-        2,
-        1030,
-        990,
-        2,
-        1024,
-        910,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 36044,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          1048.7,
-          759.6,
-          1048.7,
-          1175.2,
-          25,
-          1175.2,
-          25,
-          759.6
-        ]
-      ],
-      "width": 1080
-    },
-    {
-      "area": 424960,
-      "bbox": [
-        25,
-        760,
-        1024,
-        415
-      ],
-      "category_id": 15,
-      "color": "#7f93e5",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1920,
-      "id": 328,
-      "image_id": 487,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        49,
-        1148,
-        2,
-        81,
-        778,
-        2,
-        759,
-        951,
-        2,
-        1030,
-        990,
-        2,
-        1024,
-        910,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 36044,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          1048.7,
-          759.6,
-          1048.7,
-          1175.2,
-          25,
-          1175.2,
-          25,
-          759.6
-        ]
-      ],
-      "width": 1080
-    },
-    {
-      "area": 424960,
-      "bbox": [
-        25,
-        760,
-        1024,
-        415
-      ],
-      "category_id": 15,
-      "color": "#7f93e5",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1920,
-      "id": 330,
-      "image_id": 489,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        49,
-        1148,
-        2,
-        81,
-        778,
-        2,
-        759,
-        951,
-        2,
-        1030,
-        990,
-        2,
-        1024,
-        910,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 36044,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          1048.7,
-          759.6,
-          1048.7,
-          1175.2,
-          25,
-          1175.2,
-          25,
-          759.6
-        ]
-      ],
-      "width": 1080
-    },
-    {
-      "area": 832000,
-      "bbox": [
-        128,
-        511,
-        832,
-        1000
-      ],
-      "category_id": 15,
-      "color": "#32faba",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1920,
-      "id": 370,
-      "image_id": 491,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        931,
-        1286,
-        2,
-        695,
-        1458,
-        2,
-        300,
-        720,
-        2,
-        167,
-        526,
-        2,
-        145,
-        539,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 33863,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          959.6,
-          510.5,
-          959.6,
-          1510.6,
-          127.5,
-          1510.6,
-          127.5,
-          510.5
-        ]
-      ],
-      "width": 1080
-    },
-    {
-      "area": 832000,
-      "bbox": [
-        128,
-        511,
-        832,
-        1000
-      ],
-      "category_id": 15,
-      "color": "#32faba",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1920,
-      "id": 371,
-      "image_id": 492,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        931,
-        1286,
-        2,
-        695,
-        1458,
-        2,
-        300,
-        720,
-        2,
-        167,
-        526,
-        2,
-        145,
-        539,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 33863,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          959.6,
-          510.5,
-          959.6,
-          1510.6,
-          127.5,
-          1510.6,
-          127.5,
-          510.5
-        ]
-      ],
-      "width": 1080
-    },
-    {
-      "area": 832000,
-      "bbox": [
-        128,
-        511,
-        832,
-        1000
-      ],
-      "category_id": 15,
-      "color": "#32faba",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1920,
-      "id": 372,
-      "image_id": 493,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        931,
-        1286,
-        2,
-        695,
-        1458,
-        2,
-        300,
-        720,
-        2,
-        167,
-        526,
-        2,
-        145,
-        539,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 33863,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          959.6,
-          510.5,
-          959.6,
-          1510.6,
-          127.5,
-          1510.6,
-          127.5,
-          510.5
         ]
       ],
       "width": 1080
@@ -3922,58 +4014,6 @@
       "width": 1080
     },
     {
-      "area": 832000,
-      "bbox": [
-        128,
-        511,
-        832,
-        1000
-      ],
-      "category_id": 15,
-      "color": "#32faba",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1920,
-      "id": 377,
-      "image_id": 498,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        931,
-        1286,
-        2,
-        695,
-        1458,
-        2,
-        300,
-        720,
-        2,
-        167,
-        526,
-        2,
-        145,
-        539,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 33863,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          959.6,
-          510.5,
-          959.6,
-          1510.6,
-          127.5,
-          1510.6,
-          127.5,
-          510.5
-        ]
-      ],
-      "width": 1080
-    },
-    {
       "area": 1129862,
       "bbox": [
         121,
@@ -3985,10 +4025,24 @@
       "color": "#66adec",
       "creator": "anton_prab",
       "dataset_id": 6,
-      "events": [],
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1649016173461
+          },
+          "milliseconds": 48603,
+          "tools_used": [
+            "BBox",
+            "Keypoints",
+            "Select"
+          ],
+          "user": "anton_prab"
+        }
+      ],
       "height": 1920,
-      "id": 383,
-      "image_id": 504,
+      "id": 380,
+      "image_id": 501,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -4039,8 +4093,164 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 384,
-      "image_id": 505,
+      "id": 386,
+      "image_id": 507,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        854,
+        1582,
+        2,
+        168,
+        1576,
+        2,
+        522,
+        523,
+        2,
+        590,
+        224,
+        2,
+        461,
+        222,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 48603,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          914.6,
+          195.3,
+          914.6,
+          1618.3,
+          120.6,
+          1618.3,
+          120.6,
+          195.3
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 1129862,
+      "bbox": [
+        121,
+        195,
+        794,
+        1423
+      ],
+      "category_id": 15,
+      "color": "#66adec",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
+      "id": 387,
+      "image_id": 508,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        854,
+        1582,
+        2,
+        168,
+        1576,
+        2,
+        522,
+        523,
+        2,
+        590,
+        224,
+        2,
+        461,
+        222,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 48603,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          914.6,
+          195.3,
+          914.6,
+          1618.3,
+          120.6,
+          1618.3,
+          120.6,
+          195.3
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 1129862,
+      "bbox": [
+        121,
+        195,
+        794,
+        1423
+      ],
+      "category_id": 15,
+      "color": "#66adec",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
+      "id": 388,
+      "image_id": 509,
+      "isbbox": true,
+      "iscrowd": false,
+      "keypoints": [
+        854,
+        1582,
+        2,
+        168,
+        1576,
+        2,
+        522,
+        523,
+        2,
+        590,
+        224,
+        2,
+        461,
+        222,
+        2
+      ],
+      "metadata": {},
+      "milliseconds": 48603,
+      "num_keypoints": 5,
+      "segmentation": [
+        [
+          914.6,
+          195.3,
+          914.6,
+          1618.3,
+          120.6,
+          1618.3,
+          120.6,
+          195.3
+        ]
+      ],
+      "width": 1080
+    },
+    {
+      "area": 1129862,
+      "bbox": [
+        121,
+        195,
+        794,
+        1423
+      ],
+      "category_id": 15,
+      "color": "#66adec",
+      "creator": "anton_prab",
+      "dataset_id": 6,
+      "events": [],
+      "height": 1920,
+      "id": 389,
+      "image_id": 510,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -4193,10 +4403,24 @@
       "color": "#8b951e",
       "creator": "anton_prab",
       "dataset_id": 6,
-      "events": [],
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1649016338683
+          },
+          "milliseconds": 36800,
+          "tools_used": [
+            "BBox",
+            "Keypoints",
+            "Select"
+          ],
+          "user": "anton_prab"
+        }
+      ],
       "height": 1080,
-      "id": 393,
-      "image_id": 514,
+      "id": 392,
+      "image_id": 513,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -4247,60 +4471,8 @@
       "dataset_id": 6,
       "events": [],
       "height": 1080,
-      "id": 394,
-      "image_id": 515,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        1506,
-        176,
-        2,
-        1456,
-        941,
-        2,
-        766,
-        503,
-        2,
-        481,
-        376,
-        2,
-        466,
-        600,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 36800,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          1527.7,
-          159.3,
-          1527.7,
-          961.2,
-          450.2,
-          961.2,
-          450.2,
-          159.3
-        ]
-      ],
-      "width": 1920
-    },
-    {
-      "area": 864556,
-      "bbox": [
-        450,
-        159,
-        1078,
-        802
-      ],
-      "category_id": 15,
-      "color": "#8b951e",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1080,
-      "id": 401,
-      "image_id": 522,
+      "id": 396,
+      "image_id": 517,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -4349,24 +4521,10 @@
       "color": "#7ae381",
       "creator": "anton_prab",
       "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "created_at": {
-            "$date": 1649016544269
-          },
-          "milliseconds": 43969,
-          "tools_used": [
-            "BBox",
-            "Keypoints",
-            "Select"
-          ],
-          "user": "anton_prab"
-        }
-      ],
+      "events": [],
       "height": 1920,
-      "id": 407,
-      "image_id": 528,
+      "id": 408,
+      "image_id": 529,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -4417,8 +4575,8 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 409,
-      "image_id": 530,
+      "id": 413,
+      "image_id": 534,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -4521,164 +4679,8 @@
       "dataset_id": 6,
       "events": [],
       "height": 1920,
-      "id": 418,
-      "image_id": 539,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        255,
-        1386,
-        2,
-        86,
-        1213,
-        2,
-        779,
-        682,
-        2,
-        987,
-        502,
-        2,
-        965,
-        483,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 43969,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          1001.5,
-          470.7,
-          1001.5,
-          1417,
-          60.6,
-          1417,
-          60.6,
-          470.7
-        ]
-      ],
-      "width": 1080
-    },
-    {
-      "area": 890186,
-      "bbox": [
-        61,
-        471,
-        941,
-        946
-      ],
-      "category_id": 15,
-      "color": "#7ae381",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1920,
-      "id": 419,
-      "image_id": 540,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        255,
-        1386,
-        2,
-        86,
-        1213,
-        2,
-        779,
-        682,
-        2,
-        987,
-        502,
-        2,
-        965,
-        483,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 43969,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          1001.5,
-          470.7,
-          1001.5,
-          1417,
-          60.6,
-          1417,
-          60.6,
-          470.7
-        ]
-      ],
-      "width": 1080
-    },
-    {
-      "area": 890186,
-      "bbox": [
-        61,
-        471,
-        941,
-        946
-      ],
-      "category_id": 15,
-      "color": "#7ae381",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1920,
-      "id": 422,
-      "image_id": 543,
-      "isbbox": true,
-      "iscrowd": false,
-      "keypoints": [
-        255,
-        1386,
-        2,
-        86,
-        1213,
-        2,
-        779,
-        682,
-        2,
-        987,
-        502,
-        2,
-        965,
-        483,
-        2
-      ],
-      "metadata": {},
-      "milliseconds": 43969,
-      "num_keypoints": 5,
-      "segmentation": [
-        [
-          1001.5,
-          470.7,
-          1001.5,
-          1417,
-          60.6,
-          1417,
-          60.6,
-          470.7
-        ]
-      ],
-      "width": 1080
-    },
-    {
-      "area": 890186,
-      "bbox": [
-        61,
-        471,
-        941,
-        946
-      ],
-      "category_id": 15,
-      "color": "#7ae381",
-      "creator": "anton_prab",
-      "dataset_id": 6,
-      "events": [],
-      "height": 1920,
-      "id": 423,
-      "image_id": 544,
+      "id": 420,
+      "image_id": 541,
       "isbbox": true,
       "iscrowd": false,
       "keypoints": [
@@ -4773,57 +4775,109 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 1057,
+          "milliseconds": 867,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_168.jpg",
+      "height": 1920,
+      "id": 419,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 867,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_168.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 6115,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_061.jpg",
+      "height": 1920,
+      "id": 312,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 6115,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_061.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 963,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_148.jpg",
+      "height": 1920,
+      "id": 399,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 963,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_148.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 6654,
           "tools_used": [],
           "user": "anton_prab"
         },
         {
           "_cls": "SessionEvent",
-          "milliseconds": 3263,
+          "milliseconds": 11638,
           "tools_used": [],
           "user": "anton_prab"
         },
         {
           "_cls": "SessionEvent",
-          "milliseconds": 2764,
+          "milliseconds": 186842,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_263.jpg",
-      "height": 1080,
-      "id": 514,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 7084,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_263.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1920
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 5745,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_044.jpg",
+      "file_name": "images_130.jpg",
       "height": 1920,
-      "id": 295,
+      "id": 381,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 5745,
+      "milliseconds": 205134,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_044.jpg",
+      "path": "/datasets/Plier keypoint/images_130.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -4837,19 +4891,31 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 900,
+          "milliseconds": 5913,
+          "tools_used": [],
+          "user": "anton_prab"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 405,
+          "tools_used": [],
+          "user": "anton_prab"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 640,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_288.jpg",
+      "file_name": "images_125.jpg",
       "height": 1920,
-      "id": 539,
+      "id": 376,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 900,
+      "milliseconds": 6958,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_288.jpg",
+      "path": "/datasets/Plier keypoint/images_125.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -4863,149 +4929,19 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 1200,
+          "milliseconds": 1198,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_132.jpg",
+      "file_name": "images_186.jpg",
       "height": 1920,
-      "id": 383,
+      "id": 437,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 1200,
+      "milliseconds": 1198,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_132.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 38169,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_019.jpg",
-      "height": 1080,
-      "id": 270,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 38169,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_019.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1920
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 1534,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_253.jpg",
-      "height": 1920,
-      "id": 504,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 1534,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_253.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 999,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_156.jpg",
-      "height": 1920,
-      "id": 407,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 999,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_156.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 9842,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_066.jpg",
-      "height": 1920,
-      "id": 317,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 9842,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_066.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 961,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_279.jpg",
-      "height": 1920,
-      "id": 530,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 961,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_279.jpg",
+      "path": "/datasets/Plier keypoint/images_186.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -5024,14 +4960,14 @@
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_183.jpg",
+      "file_name": "images_210.jpg",
       "height": 1920,
-      "id": 434,
+      "id": 461,
       "is_modified": false,
       "metadata": {},
       "milliseconds": 1032,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_183.jpg",
+      "path": "/datasets/Plier keypoint/images_210.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -5045,19 +4981,45 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 988,
+          "milliseconds": 987,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_236.jpg",
-      "height": 1920,
-      "id": 487,
+      "file_name": "images_266.jpg",
+      "height": 1080,
+      "id": 517,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 988,
+      "milliseconds": 987,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_236.jpg",
+      "path": "/datasets/Plier keypoint/images_266.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1920
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 1409,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_225.jpg",
+      "height": 1920,
+      "id": 476,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 1409,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_225.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -5071,19 +5033,19 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 10491,
+          "milliseconds": 5941,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_045.jpg",
+      "file_name": "images_058.jpg",
       "height": 1920,
-      "id": 296,
+      "id": 309,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 10491,
+      "milliseconds": 5941,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_045.jpg",
+      "path": "/datasets/Plier keypoint/images_058.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -5097,19 +5059,19 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 784,
+          "milliseconds": 885,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_104.jpg",
+      "file_name": "images_244.jpg",
       "height": 1920,
-      "id": 355,
+      "id": 495,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 784,
+      "milliseconds": 885,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_104.jpg",
+      "path": "/datasets/Plier keypoint/images_244.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -5123,19 +5085,19 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 6280,
+          "milliseconds": 7109,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_043.jpg",
+      "file_name": "images_197.jpg",
       "height": 1920,
-      "id": 294,
+      "id": 448,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 6280,
+      "milliseconds": 7109,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_043.jpg",
+      "path": "/datasets/Plier keypoint/images_197.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -5149,19 +5111,19 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 1311,
+          "milliseconds": 1199,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_158.jpg",
+      "file_name": "images_213.jpg",
       "height": 1920,
-      "id": 409,
+      "id": 464,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 1311,
+      "milliseconds": 1199,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_158.jpg",
+      "path": "/datasets/Plier keypoint/images_213.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -5175,19 +5137,19 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 1229,
+          "milliseconds": 3278,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_234.jpg",
+      "file_name": "images_092.jpg",
       "height": 1920,
-      "id": 485,
+      "id": 343,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 1229,
+      "milliseconds": 3278,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_234.jpg",
+      "path": "/datasets/Plier keypoint/images_092.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -5201,25 +5163,19 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 143183,
-          "tools_used": [],
-          "user": "anton_prab"
-        },
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 2684,
+          "milliseconds": 886,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_100.jpg",
+      "file_name": "images_139.jpg",
       "height": 1920,
-      "id": 351,
+      "id": 390,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 145867,
+      "milliseconds": 886,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_100.jpg",
+      "path": "/datasets/Plier keypoint/images_139.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -5259,19 +5215,19 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 946,
+          "milliseconds": 1083,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_079.jpg",
+      "file_name": "images_094.jpg",
       "height": 1920,
-      "id": 330,
+      "id": 345,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 946,
+      "milliseconds": 1083,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_079.jpg",
+      "path": "/datasets/Plier keypoint/images_094.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -5285,195 +5241,21 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 1506,
-          "tools_used": [],
-          "user": "anton_prab"
-        },
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 2419,
+          "milliseconds": 32654,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_240.jpg",
-      "height": 1920,
-      "id": 491,
+      "file_name": "images_018.jpg",
+      "height": 1080,
+      "id": 269,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 3925,
+      "milliseconds": 32654,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_240.jpg",
+      "path": "/datasets/Plier keypoint/images_018.jpg",
       "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 949,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_260.jpg",
-      "height": 1920,
-      "id": 511,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 949,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_260.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 1456,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_106.jpg",
-      "height": 1920,
-      "id": 357,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 1456,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_106.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 13214,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_055.jpg",
-      "height": 1920,
-      "id": 306,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 13214,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_055.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 6462,
-          "tools_used": [],
-          "user": "anton_prab"
-        },
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 1450,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_099.jpg",
-      "height": 1920,
-      "id": 350,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 7912,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_099.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 106498,
-          "tools_used": [],
-          "user": "anton_prab"
-        },
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 80056,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_074.jpg",
-      "height": 1920,
-      "id": 325,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 186554,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_074.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 1941,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_230.jpg",
-      "height": 1920,
-      "id": 481,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 1941,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_230.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
+      "width": 1920
     },
     {
       "annotated": true,
@@ -5498,6 +5280,238 @@
       "milliseconds": 932,
       "num_annotations": 1,
       "path": "/datasets/Plier keypoint/images_135.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 5745,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_044.jpg",
+      "height": 1920,
+      "id": 295,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 5745,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_044.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 925,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_257.jpg",
+      "height": 1920,
+      "id": 508,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 925,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_257.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 2350,
+          "tools_used": [],
+          "user": "anton_prab"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 753,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_090.jpg",
+      "height": 1920,
+      "id": 341,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 3103,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_090.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 2555,
+          "tools_used": [],
+          "user": "anton_prab"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 44087,
+          "tools_used": [],
+          "user": "anton_prab"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 1162,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_262.jpg",
+      "height": 1080,
+      "id": 513,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 47804,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_262.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1920
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 1715,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_290.jpg",
+      "height": 1920,
+      "id": 541,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 1715,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_290.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 42908,
+          "tools_used": [],
+          "user": "anton_prab"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 10858,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_035.jpg",
+      "height": 1920,
+      "id": 286,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 53766,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_035.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 877,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_078.jpg",
+      "height": 1920,
+      "id": 329,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 877,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_078.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 843,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_283.jpg",
+      "height": 1920,
+      "id": 534,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 843,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_283.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -5549,225 +5563,19 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 2014,
+          "milliseconds": 943,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_113.jpg",
+      "file_name": "images_259.jpg",
       "height": 1920,
-      "id": 364,
+      "id": 510,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 2014,
+      "milliseconds": 943,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_113.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 1706,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_162.jpg",
-      "height": 1920,
-      "id": 413,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 1706,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_162.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 1139,
-          "tools_used": [],
-          "user": "anton_prab"
-        },
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 1465,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_089.jpg",
-      "height": 1920,
-      "id": 340,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 2604,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_089.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 50441,
-          "tools_used": [],
-          "user": "anton_prab"
-        },
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 4622,
-          "tools_used": [],
-          "user": "anton_prab"
-        },
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 137613,
-          "tools_used": [],
-          "user": "anton_prab"
-        },
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 53699,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_002.jpg",
-      "height": 1080,
-      "id": 253,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 246375,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_002.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1920
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 988,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_128.jpg",
-      "height": 1920,
-      "id": 379,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 988,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_128.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 1968,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_293.jpg",
-      "height": 1920,
-      "id": 544,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 1968,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_293.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 853,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_082.jpg",
-      "height": 1920,
-      "id": 333,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 853,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_082.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 971,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_142.jpg",
-      "height": 1920,
-      "id": 393,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 971,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_142.jpg",
+      "path": "/datasets/Plier keypoint/images_259.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -5813,25 +5621,323 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 2534,
+          "milliseconds": 1012,
           "tools_used": [],
           "user": "anton_prab"
         },
         {
           "_cls": "SessionEvent",
-          "milliseconds": 1026,
+          "milliseconds": 5021,
+          "tools_used": [],
+          "user": "anton_prab"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 35415,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_175.jpg",
-      "height": 1920,
-      "id": 426,
+      "file_name": "images_009.jpg",
+      "height": 1080,
+      "id": 260,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 3560,
+      "milliseconds": 41448,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_175.jpg",
+      "path": "/datasets/Plier keypoint/images_009.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1920
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 12078,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_063.jpg",
+      "height": 1920,
+      "id": 314,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 12078,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_063.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 8320,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_218.jpg",
+      "height": 1920,
+      "id": 469,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 8320,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_218.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 59171,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_250.jpg",
+      "height": 1920,
+      "id": 501,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 59171,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_250.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 945,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_147.jpg",
+      "height": 1920,
+      "id": 398,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 945,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_147.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 1252,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_204.jpg",
+      "height": 1920,
+      "id": 455,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 1252,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_204.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 817,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_103.jpg",
+      "height": 1920,
+      "id": 354,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 817,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_103.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 14452,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_256.jpg",
+      "height": 1920,
+      "id": 507,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 14452,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_256.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 10357,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_059.jpg",
+      "height": 1920,
+      "id": 310,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 10357,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_059.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 18550,
+          "tools_used": [],
+          "user": "anton_prab"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 11026,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_037.jpg",
+      "height": 1920,
+      "id": 288,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 29576,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_037.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 5089,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_228.jpg",
+      "height": 1920,
+      "id": 479,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 5089,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_228.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 1200,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_132.jpg",
+      "height": 1920,
+      "id": 383,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 1200,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_132.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -5871,19 +5977,19 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 1086,
+          "milliseconds": 12105,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_254.jpg",
+      "file_name": "images_069.jpg",
       "height": 1920,
-      "id": 505,
+      "id": 320,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 1086,
+      "milliseconds": 12105,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_254.jpg",
+      "path": "/datasets/Plier keypoint/images_069.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -5897,19 +6003,19 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 1060,
+          "milliseconds": 1546,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_235.jpg",
+      "file_name": "images_193.jpg",
       "height": 1920,
-      "id": 486,
+      "id": 444,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 1060,
+      "milliseconds": 1546,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_235.jpg",
+      "path": "/datasets/Plier keypoint/images_193.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -5923,19 +6029,19 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 12078,
+          "milliseconds": 1388,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_063.jpg",
+      "file_name": "images_206.jpg",
       "height": 1920,
-      "id": 314,
+      "id": 457,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 12078,
+      "milliseconds": 1388,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_063.jpg",
+      "path": "/datasets/Plier keypoint/images_206.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -5949,297 +6055,19 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 1230,
+          "milliseconds": 984,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_102.jpg",
+      "file_name": "images_167.jpg",
       "height": 1920,
-      "id": 353,
+      "id": 418,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 1230,
+      "milliseconds": 984,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_102.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 1026,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_247.jpg",
-      "height": 1920,
-      "id": 498,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 1026,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_247.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 912,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_169.jpg",
-      "height": 1920,
-      "id": 420,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 912,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_169.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 857,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_141.jpg",
-      "height": 1920,
-      "id": 392,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 857,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_141.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 1198,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_186.jpg",
-      "height": 1920,
-      "id": 437,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 1198,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_186.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 3344,
-          "tools_used": [],
-          "user": "anton_prab"
-        },
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 1083,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_264.jpg",
-      "height": 1080,
-      "id": 515,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 4427,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_264.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1920
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 1813,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_115.jpg",
-      "height": 1920,
-      "id": 366,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 1813,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_115.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 1569,
-          "tools_used": [],
-          "user": "anton_prab"
-        },
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 2522,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_129.jpg",
-      "height": 1920,
-      "id": 380,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 4091,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_129.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 94056,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_012.jpg",
-      "height": 1080,
-      "id": 263,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 94056,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_012.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1920
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 823,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_137.jpg",
-      "height": 1920,
-      "id": 388,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 823,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_137.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 3387,
-          "tools_used": [],
-          "user": "anton_prab"
-        },
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 4929,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_098.jpg",
-      "height": 1920,
-      "id": 349,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 8316,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_098.jpg",
+      "path": "/datasets/Plier keypoint/images_167.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -6297,19 +6125,19 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 485341,
+          "milliseconds": 888,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_056.jpg",
+      "file_name": "images_081.jpg",
       "height": 1920,
-      "id": 307,
+      "id": 332,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 485341,
+      "milliseconds": 888,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_056.jpg",
+      "path": "/datasets/Plier keypoint/images_081.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -6323,323 +6151,19 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 1274,
+          "milliseconds": 1230,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_203.jpg",
+      "file_name": "images_102.jpg",
       "height": 1920,
-      "id": 454,
+      "id": 353,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 1274,
+      "milliseconds": 1230,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_203.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 1163,
-          "tools_used": [],
-          "user": "anton_prab"
-        },
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 9052,
-          "tools_used": [],
-          "user": "anton_prab"
-        },
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 18834,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_006.jpg",
-      "height": 1080,
-      "id": 257,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 29049,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_006.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1920
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 52509,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_277.jpg",
-      "height": 1920,
-      "id": 528,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 52509,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_277.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 990,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_241.jpg",
-      "height": 1920,
-      "id": 492,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 990,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_241.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 30062,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_016.jpg",
-      "height": 1080,
-      "id": 267,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 30062,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_016.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1920
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 1908,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_108.jpg",
-      "height": 1920,
-      "id": 359,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 1908,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_108.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 886,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_139.jpg",
-      "height": 1920,
-      "id": 390,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 886,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_139.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 12105,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_069.jpg",
-      "height": 1920,
-      "id": 320,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 12105,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_069.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 951,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_166.jpg",
-      "height": 1920,
-      "id": 417,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 951,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_166.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 5825,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_211.jpg",
-      "height": 1920,
-      "id": 462,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 5825,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_211.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 2247,
-          "tools_used": [],
-          "user": "anton_prab"
-        },
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 47904,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_011.jpg",
-      "height": 1080,
-      "id": 262,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 50151,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_011.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1920
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 822,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_289.jpg",
-      "height": 1920,
-      "id": 540,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 822,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_289.jpg",
+      "path": "/datasets/Plier keypoint/images_102.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -6679,19 +6203,19 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 2127,
+          "milliseconds": 634,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_292.jpg",
+      "file_name": "images_095.jpg",
       "height": 1920,
-      "id": 543,
+      "id": 346,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 2127,
+      "milliseconds": 634,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_292.jpg",
+      "path": "/datasets/Plier keypoint/images_095.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -6705,19 +6229,19 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 1032,
+          "milliseconds": 19788,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_231.jpg",
+      "file_name": "images_033.jpg",
       "height": 1920,
-      "id": 482,
+      "id": 284,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 1032,
+      "milliseconds": 19788,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_231.jpg",
+      "path": "/datasets/Plier keypoint/images_033.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -6731,323 +6255,19 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 39774,
-          "tools_used": [],
-          "user": "anton_prab"
-        },
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 2190,
+          "milliseconds": 2695,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_021.jpg",
+      "file_name": "images_192.jpg",
       "height": 1920,
-      "id": 272,
+      "id": 443,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 41964,
+      "milliseconds": 2695,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_021.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 942,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_150.jpg",
-      "height": 1920,
-      "id": 401,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 942,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_150.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 1841,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_111.jpg",
-      "height": 1920,
-      "id": 362,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 1841,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_111.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 1081,
-          "tools_used": [],
-          "user": "anton_prab"
-        },
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 1616,
-          "tools_used": [],
-          "user": "anton_prab"
-        },
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 1634,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_173.jpg",
-      "height": 1920,
-      "id": 424,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 4331,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_173.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 1014,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_172.jpg",
-      "height": 1920,
-      "id": 423,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 1014,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_172.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 885,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_244.jpg",
-      "height": 1920,
-      "id": 495,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 885,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_244.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 1261,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_238.jpg",
-      "height": 1920,
-      "id": 489,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 1261,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_238.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 32654,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_018.jpg",
-      "height": 1080,
-      "id": 269,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 32654,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_018.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1920
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 11481,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_031.jpg",
-      "height": 1920,
-      "id": 282,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 11481,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_031.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 1324,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_271.jpg",
-      "height": 1080,
-      "id": 522,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 1324,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_271.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1920
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 1116,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_097.jpg",
-      "height": 1920,
-      "id": 348,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 1116,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_097.jpg",
-      "regenerate_thumbnail": false,
-      "width": 1080
-    },
-    {
-      "annotated": true,
-      "annotating": [],
-      "category_ids": [
-        15
-      ],
-      "dataset_id": 6,
-      "events": [
-        {
-          "_cls": "SessionEvent",
-          "milliseconds": 36281,
-          "tools_used": [],
-          "user": "anton_prab"
-        }
-      ],
-      "file_name": "images_064.jpg",
-      "height": 1920,
-      "id": 315,
-      "is_modified": false,
-      "metadata": {},
-      "milliseconds": 36281,
-      "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_064.jpg",
+      "path": "/datasets/Plier keypoint/images_192.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -7087,19 +6307,19 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 1311,
+          "milliseconds": 801,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_224.jpg",
+      "file_name": "images_184.jpg",
       "height": 1920,
-      "id": 475,
+      "id": 435,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 1311,
+      "milliseconds": 801,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_224.jpg",
+      "path": "/datasets/Plier keypoint/images_184.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -7113,25 +6333,25 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 2312,
+          "milliseconds": 6001,
           "tools_used": [],
           "user": "anton_prab"
         },
         {
           "_cls": "SessionEvent",
-          "milliseconds": 557,
+          "milliseconds": 10771,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_126.jpg",
+      "file_name": "images_034.jpg",
       "height": 1920,
-      "id": 377,
+      "id": 285,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 2869,
+      "milliseconds": 16772,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_126.jpg",
+      "path": "/datasets/Plier keypoint/images_034.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -7145,19 +6365,283 @@
       "events": [
         {
           "_cls": "SessionEvent",
-          "milliseconds": 791,
+          "milliseconds": 1014,
           "tools_used": [],
           "user": "anton_prab"
         }
       ],
-      "file_name": "images_242.jpg",
+      "file_name": "images_172.jpg",
       "height": 1920,
-      "id": 493,
+      "id": 423,
       "is_modified": false,
       "metadata": {},
-      "milliseconds": 791,
+      "milliseconds": 1014,
       "num_annotations": 1,
-      "path": "/datasets/Plier keypoint/images_242.jpg",
+      "path": "/datasets/Plier keypoint/images_172.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 949,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_260.jpg",
+      "height": 1920,
+      "id": 511,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 949,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_260.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 999,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_156.jpg",
+      "height": 1920,
+      "id": 407,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 999,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_156.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 977,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_179.jpg",
+      "height": 1920,
+      "id": 430,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 977,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_179.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 1385,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_215.jpg",
+      "height": 1920,
+      "id": 466,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 1385,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_215.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 2835,
+          "tools_used": [],
+          "user": "anton_prab"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 11863,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_029.jpg",
+      "height": 1920,
+      "id": 280,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 14698,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_029.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 1139,
+          "tools_used": [],
+          "user": "anton_prab"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 1465,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_089.jpg",
+      "height": 1920,
+      "id": 340,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 2604,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_089.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 46490,
+          "tools_used": [],
+          "user": "anton_prab"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 6566,
+          "tools_used": [],
+          "user": "anton_prab"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 220915,
+          "tools_used": [],
+          "user": "anton_prab"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 132744,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_001.jpg",
+      "height": 1080,
+      "id": 252,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 406715,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_001.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1920
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 1706,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_162.jpg",
+      "height": 1920,
+      "id": 413,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 1706,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_162.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 6932,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_042.jpg",
+      "height": 1920,
+      "id": 293,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 6932,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_042.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     },
@@ -7184,6 +6668,530 @@
       "milliseconds": 1167,
       "num_annotations": 1,
       "path": "/datasets/Plier keypoint/images_261.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 1153,
+          "tools_used": [],
+          "user": "anton_prab"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 3189,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_278.jpg",
+      "height": 1920,
+      "id": 529,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 4342,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_278.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 717761,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_052.jpg",
+      "height": 1920,
+      "id": 303,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 717761,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_052.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 971,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_142.jpg",
+      "height": 1920,
+      "id": 393,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 971,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_142.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 2927,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_199.jpg",
+      "height": 1920,
+      "id": 450,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 2927,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_199.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 9729,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_070.jpg",
+      "height": 1920,
+      "id": 321,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 9729,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_070.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 30062,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_016.jpg",
+      "height": 1080,
+      "id": 267,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 30062,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_016.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1920
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 990,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_080.jpg",
+      "height": 1920,
+      "id": 331,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 990,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_080.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 234030,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_067.jpg",
+      "height": 1920,
+      "id": 318,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 234030,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_067.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 2259,
+          "tools_used": [],
+          "user": "anton_prab"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 1928,
+          "tools_used": [],
+          "user": "anton_prab"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 2796,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_177.jpg",
+      "height": 1920,
+      "id": 428,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 6983,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_177.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 1569,
+          "tools_used": [],
+          "user": "anton_prab"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 2522,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_129.jpg",
+      "height": 1920,
+      "id": 380,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 4091,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_129.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 916,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_258.jpg",
+      "height": 1920,
+      "id": 509,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 916,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_258.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 130013,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_054.jpg",
+      "height": 1920,
+      "id": 305,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 130013,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_054.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 1125,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_190.jpg",
+      "height": 1920,
+      "id": 441,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 1125,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_190.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 2534,
+          "tools_used": [],
+          "user": "anton_prab"
+        },
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 1026,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_175.jpg",
+      "height": 1920,
+      "id": 426,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 3560,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_175.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 10491,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_045.jpg",
+      "height": 1920,
+      "id": 296,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 10491,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_045.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 58234,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_013.jpg",
+      "height": 1080,
+      "id": 264,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 58234,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_013.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1920
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 923,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_180.jpg",
+      "height": 1920,
+      "id": 431,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 923,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_180.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 1619,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_096.jpg",
+      "height": 1920,
+      "id": 347,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 1619,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_096.jpg",
+      "regenerate_thumbnail": false,
+      "width": 1080
+    },
+    {
+      "annotated": true,
+      "annotating": [],
+      "category_ids": [
+        15
+      ],
+      "dataset_id": 6,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "milliseconds": 1099,
+          "tools_used": [],
+          "user": "anton_prab"
+        }
+      ],
+      "file_name": "images_229.jpg",
+      "height": 1920,
+      "id": 480,
+      "is_modified": false,
+      "metadata": {},
+      "milliseconds": 1099,
+      "num_annotations": 1,
+      "path": "/datasets/Plier keypoint/images_229.jpg",
       "regenerate_thumbnail": false,
       "width": 1080
     }
