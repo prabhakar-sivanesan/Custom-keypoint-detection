@@ -340,6 +340,18 @@ For reference, I have added the sample [pipeline.config](dataset/pipeline.config
 
 ## Training
 
+Now we are ready to train our keypoint detection model. We can use the [model_main_tf2.py](https://github.com/tensorflow/models/blob/master/research/object_detection/model_main_tf2.py) from the TensorFlow Object detection API to train the model.
+
+```
+python TensorFlow/models/research/object_detection/model_main_tf2.py \
+--model_dir "output_models" \
+--pipeline_config_path "dataset/pipeline.config"
+```
+
+Use tensorboard to monitor the training performance.
+
+![tensorboard.png](utils/tensorboard.png)
+
 ## Inference
 
 ### To-do's
