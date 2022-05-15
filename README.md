@@ -18,6 +18,7 @@ We will be using the transfer learning technique on [centernet-hourglass104](htt
   - [Pretrained model](#pretrained-model)
   - [Parameter changes in config file](#parameter-changes-in-config-file)
 - [Training](#training)
+- [Export checkpoint to Saved model](#export-checkpoint-to-saved-model)
 - [Inference](#inference)
 
 
@@ -354,7 +355,7 @@ Use tensorboard to monitor the training performance.
 
 ## Export checkpoint to Saved model
 
-Use ```exporter_main_v2.py``` from Tensorflow Object detection API to export checkpoint to a saved model.
+Use [exporter_main_v2.py](https://github.com/tensorflow/models/blob/master/research/object_detection/exporter_main_v2.py) from Tensorflow Object detection API to export checkpoint to a saved model.
 
 ```
 python models/research/object_detection/exporter_main_v2.py \
