@@ -348,6 +348,7 @@ python TensorFlow/models/research/object_detection/model_main_tf2.py \
 --model_dir "output_models" \
 --pipeline_config_path "dataset/pipeline.config"
 ```
+Or, you can import the [custom_keypoint_detection.ipynb](custom_keypoint_detection.ipynb) directly into Google colab and do the TF Record generation, model training, model export and inference.
 
 Use tensorboard to monitor the training performance.
 
