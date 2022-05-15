@@ -352,6 +352,18 @@ Use tensorboard to monitor the training performance.
 
 ![tensorboard.png](utils/tensorboard.png)
 
+## Export checkpoint to Saved model
+
+Use ```exporter_main_v2.py``` from Tensorflow Object detection API to export checkpoint to a saved model.
+
+```
+python models/research/object_detection/exporter_main_v2.py \
+--input_type image_tensor \
+--pipeline_config_path "dataset/pipeline.config" \
+--trained_checkpoint_dir "output_models" \
+--output_directory "saved_model"
+```
+
 ## Inference
 
 ### To-do's

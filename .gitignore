@@ -2,3 +2,4 @@
 /dataset/images
 /dataset/source_videos
 /resize_image.py
+/saved_model
