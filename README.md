@@ -366,4 +366,6 @@ python models/research/object_detection/exporter_main_v2.py \
 
 ## Inference
 
+Use ``` inference.py ``` script to run inference on sample images.
+
 ### To-do's
