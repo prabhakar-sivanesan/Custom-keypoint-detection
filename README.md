@@ -367,6 +367,14 @@ python models/research/object_detection/exporter_main_v2.py \
 
 ## Inference
 
-Use ``` inference.py ``` script to run inference on sample images.
+Use ``` inference.py ``` script to run inference on sample images.  
+  
+Some sample outputs  
+
+![output_1](utils/output_images_1.jpg)
+![output_2](utils/output_images_2.jpg)
+![output_3](utils/output_images_3.jpg)
+![output_4](utils/output_images_4.jpg)
+![output_5](utils/output_images_5.jpg)
 
 ### To-do's

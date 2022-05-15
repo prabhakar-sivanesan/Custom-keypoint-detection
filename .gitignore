@@ -3,3 +3,4 @@
 /dataset/source_videos
 /resize_image.py
 /saved_model
+/output_folder
